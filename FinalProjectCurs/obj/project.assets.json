@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AE\\Source\\Repos\\CatalinRadu11\\FinalProjectCurs\\FinalProjectCurs\\FinalProjectCurs.csproj",
+      "projectUniqueName": "C:\\Users\\AE\\Desktop\\CatalinRadu11\\FinalProjectCurs\\FinalProjectCurs\\FinalProjectCurs.csproj",
       "projectName": "FinalProjectCurs",
-      "projectPath": "C:\\Users\\AE\\Source\\Repos\\CatalinRadu11\\FinalProjectCurs\\FinalProjectCurs\\FinalProjectCurs.csproj",
+      "projectPath": "C:\\Users\\AE\\Desktop\\CatalinRadu11\\FinalProjectCurs\\FinalProjectCurs\\FinalProjectCurs.csproj",
       "packagesPath": "C:\\Users\\AE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AE\\Source\\Repos\\CatalinRadu11\\FinalProjectCurs\\FinalProjectCurs\\obj\\",
+      "outputPath": "C:\\Users\\AE\\Desktop\\CatalinRadu11\\FinalProjectCurs\\FinalProjectCurs\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AE\\AppData\\Roaming\\NuGet\\NuGet.Config",
