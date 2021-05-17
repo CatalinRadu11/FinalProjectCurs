@@ -20,26 +20,38 @@ namespace FinalProjectCurs
             //comboBoxMasina.Text = "---Alegeti o masina---";  // add default value for combobox but is not working right now
 
             //populate combobox with the items from enum
-            comboBoxCar.DataSource = Enum.GetValues(typeof(CarEnum)); 
+            comboBoxMasina.DataSource = Enum.GetValues(typeof(CarEnum)); 
         }
 
         //---------------------------------------------------------------------------------------------------------------------
         //adaugarea imaginilor in picturebox(s) in functie de selectia facuta de utilizator in combobox
         private void comboBoxMasina_SelectedIndexChanged(object sender, EventArgs e)
         {
-            switch (comboBoxCar.SelectedItem.ToString())
+            switch (comboBoxMasina.SelectedItem.ToString())
             {
                 case "AudiA3":
+                    pictureBox_car.Load("pictures\\3.png");
+                    pictureBox_car1.Load("pictures\\3.png");
+                    pictureBox_car2.Load("pictures\\33.png");
+                    pictureBox_car3.Load("pictures\\333.png");
                     break;
-                case "AudiR8":
+                case "VolkswagenTiguan":
+                    pictureBox_car.Load("pictures\\4.png");
+                    pictureBox_car1.Load("pictures\\4.png");
+                    pictureBox_car2.Load("pictures\\44.png");
+                    pictureBox_car3.Load("pictures\\444.jpg");
                     break;
                 case "BMWI8":
                     pictureBox_car.Load("pictures\\2.png");
                     pictureBox_car1.Load("pictures\\2.png");
-                    pictureBox_car2.Load("pictures\\22.png");
+                    pictureBox_car2.Load("pictures\\22.jpg");
                     pictureBox_car3.Load("pictures\\222.png");
                     break;
-                case "Ferrari488GTB":
+                case "HyundaiTucson":
+                    pictureBox_car.Load("pictures\\5.png");
+                    pictureBox_car1.Load("pictures\\5.png");
+                    pictureBox_car2.Load("pictures\\55.png");
+                    pictureBox_car3.Load("pictures\\555.jpg");
                     break;
                 case "LamborghiniAventador":
                     pictureBox_car.Load("pictures\\1.png");
@@ -48,11 +60,15 @@ namespace FinalProjectCurs
                     pictureBox_car3.Load("pictures\\111.png");
                     break;
                 case "RenaulClio":
+                    pictureBox_car.Load("pictures\\6.jpg");
+                    pictureBox_car1.Load("pictures\\6.jpg");
+                    pictureBox_car2.Load("pictures\\66.png");
+                    pictureBox_car3.Load("pictures\\666.jpg");
                     break;
                 default:
                     MessageBox.Show("Nu ai ales nicio masina!"); //nu functioneaza inca
                     break;
-                }
+            }
         }
         private void pictureBox_car1_Click(object sender, EventArgs e)
         {

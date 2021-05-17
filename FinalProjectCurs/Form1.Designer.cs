@@ -35,7 +35,7 @@ namespace FinalProjectCurs
             this.label5 = new System.Windows.Forms.Label();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.comboBoxCar = new System.Windows.Forms.ComboBox();
+            this.comboBoxMasina = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -77,7 +77,7 @@ namespace FinalProjectCurs
             this.splitContainer1.Panel1.Controls.Add(this.label5);
             this.splitContainer1.Panel1.Controls.Add(this.dateTimePicker2);
             this.splitContainer1.Panel1.Controls.Add(this.dateTimePicker1);
-            this.splitContainer1.Panel1.Controls.Add(this.comboBoxCar);
+            this.splitContainer1.Panel1.Controls.Add(this.comboBoxMasina);
             this.splitContainer1.Panel1.Controls.Add(this.label4);
             this.splitContainer1.Panel1.Controls.Add(this.label3);
             this.splitContainer1.Panel1.Controls.Add(this.label2);
@@ -136,14 +136,14 @@ namespace FinalProjectCurs
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 23);
             this.dateTimePicker1.TabIndex = 16;
             // 
-            // comboBoxCar
+            // comboBoxMasina
             // 
-            this.comboBoxCar.FormattingEnabled = true;
-            this.comboBoxCar.Location = new System.Drawing.Point(98, 485);
-            this.comboBoxCar.Name = "comboBoxCar";
-            this.comboBoxCar.Size = new System.Drawing.Size(200, 23);
-            this.comboBoxCar.TabIndex = 15;
-            this.comboBoxCar.SelectedIndexChanged += new System.EventHandler(this.comboBoxMasina_SelectedIndexChanged);
+            this.comboBoxMasina.FormattingEnabled = true;
+            this.comboBoxMasina.Location = new System.Drawing.Point(98, 485);
+            this.comboBoxMasina.Name = "comboBoxMasina";
+            this.comboBoxMasina.Size = new System.Drawing.Size(200, 23);
+            this.comboBoxMasina.TabIndex = 15;
+            this.comboBoxMasina.SelectedIndexChanged += new System.EventHandler(this.comboBoxMasina_SelectedIndexChanged);
             // 
             // label4
             // 
@@ -326,7 +326,7 @@ namespace FinalProjectCurs
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.ComboBox comboBoxCar;
+        private System.Windows.Forms.ComboBox comboBoxMasina;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
