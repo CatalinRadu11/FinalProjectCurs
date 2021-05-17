@@ -31,11 +31,11 @@ namespace FinalProjectCurs
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonRezervaAcum = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.comboBoxMasina = new System.Windows.Forms.ComboBox();
+            this.comboBoxCar = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -50,6 +50,7 @@ namespace FinalProjectCurs
             this.pictureBox_car3 = new System.Windows.Forms.PictureBox();
             this.pictureBox_car = new System.Windows.Forms.PictureBox();
             this.label27 = new System.Windows.Forms.Label();
+            this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -60,6 +61,7 @@ namespace FinalProjectCurs
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_car2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_car3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_car)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
             this.SuspendLayout();
             // 
             // splitContainer1
@@ -71,11 +73,11 @@ namespace FinalProjectCurs
             // splitContainer1.Panel1
             // 
             this.splitContainer1.Panel1.BackColor = System.Drawing.Color.Transparent;
-            this.splitContainer1.Panel1.Controls.Add(this.button1);
+            this.splitContainer1.Panel1.Controls.Add(this.buttonRezervaAcum);
             this.splitContainer1.Panel1.Controls.Add(this.label5);
             this.splitContainer1.Panel1.Controls.Add(this.dateTimePicker2);
             this.splitContainer1.Panel1.Controls.Add(this.dateTimePicker1);
-            this.splitContainer1.Panel1.Controls.Add(this.comboBoxMasina);
+            this.splitContainer1.Panel1.Controls.Add(this.comboBoxCar);
             this.splitContainer1.Panel1.Controls.Add(this.label4);
             this.splitContainer1.Panel1.Controls.Add(this.label3);
             this.splitContainer1.Panel1.Controls.Add(this.label2);
@@ -99,14 +101,15 @@ namespace FinalProjectCurs
             this.splitContainer1.SplitterDistance = 423;
             this.splitContainer1.TabIndex = 0;
             // 
-            // button1
+            // buttonRezervaAcum
             // 
-            this.button1.Location = new System.Drawing.Point(119, 567);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(157, 34);
-            this.button1.TabIndex = 19;
-            this.button1.Text = "Rezerva acum";
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttonRezervaAcum.Location = new System.Drawing.Point(119, 567);
+            this.buttonRezervaAcum.Name = "buttonRezervaAcum";
+            this.buttonRezervaAcum.Size = new System.Drawing.Size(157, 34);
+            this.buttonRezervaAcum.TabIndex = 19;
+            this.buttonRezervaAcum.Text = "Rezerva acum";
+            this.buttonRezervaAcum.UseVisualStyleBackColor = true;
+            this.buttonRezervaAcum.Click += new System.EventHandler(this.buttonRezervaAcum_Click_1);
             // 
             // label5
             // 
@@ -133,14 +136,14 @@ namespace FinalProjectCurs
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 23);
             this.dateTimePicker1.TabIndex = 16;
             // 
-            // comboBoxMasina
+            // comboBoxCar
             // 
-            this.comboBoxMasina.FormattingEnabled = true;
-            this.comboBoxMasina.Location = new System.Drawing.Point(98, 485);
-            this.comboBoxMasina.Name = "comboBoxMasina";
-            this.comboBoxMasina.Size = new System.Drawing.Size(200, 23);
-            this.comboBoxMasina.TabIndex = 15;
-            this.comboBoxMasina.SelectedIndexChanged += new System.EventHandler(this.comboBoxMasina_SelectedIndexChanged);
+            this.comboBoxCar.FormattingEnabled = true;
+            this.comboBoxCar.Location = new System.Drawing.Point(98, 485);
+            this.comboBoxCar.Name = "comboBoxCar";
+            this.comboBoxCar.Size = new System.Drawing.Size(200, 23);
+            this.comboBoxCar.TabIndex = 15;
+            this.comboBoxCar.SelectedIndexChanged += new System.EventHandler(this.comboBoxMasina_SelectedIndexChanged);
             // 
             // label4
             // 
@@ -284,6 +287,11 @@ namespace FinalProjectCurs
             this.label27.TabIndex = 12;
             this.label27.Text = "Price";
             // 
+            // fileSystemWatcher1
+            // 
+            this.fileSystemWatcher1.EnableRaisingEvents = true;
+            this.fileSystemWatcher1.SynchronizingObject = this;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -306,6 +314,7 @@ namespace FinalProjectCurs
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_car2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_car3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_car)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -313,11 +322,11 @@ namespace FinalProjectCurs
         #endregion
 
         private System.Windows.Forms.SplitContainer splitContainer1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonRezervaAcum;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.ComboBox comboBoxMasina;
+        private System.Windows.Forms.ComboBox comboBoxCar;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
@@ -332,6 +341,7 @@ namespace FinalProjectCurs
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label labelPhone;
         private System.Windows.Forms.Label labelEmail;
+        private System.IO.FileSystemWatcher fileSystemWatcher1;
     }
 }
 

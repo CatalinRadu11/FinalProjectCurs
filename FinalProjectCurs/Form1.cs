@@ -20,20 +20,24 @@ namespace FinalProjectCurs
             //comboBoxMasina.Text = "---Alegeti o masina---";  // add default value for combobox but is not working right now
 
             //populate combobox with the items from enum
-            comboBoxMasina.DataSource = Enum.GetValues(typeof(CarEnum)); 
+            comboBoxCar.DataSource = Enum.GetValues(typeof(CarEnum)); 
         }
 
         //---------------------------------------------------------------------------------------------------------------------
         //adaugarea imaginilor in picturebox(s) in functie de selectia facuta de utilizator in combobox
         private void comboBoxMasina_SelectedIndexChanged(object sender, EventArgs e)
         {
-            switch (comboBoxMasina.SelectedItem.ToString())
+            switch (comboBoxCar.SelectedItem.ToString())
             {
                 case "AudiA3":
                     break;
                 case "AudiR8":
                     break;
                 case "BMWI8":
+                    pictureBox_car.Load("pictures\\2.png");
+                    pictureBox_car1.Load("pictures\\2.png");
+                    pictureBox_car2.Load("pictures\\22.png");
+                    pictureBox_car3.Load("pictures\\222.png");
                     break;
                 case "Ferrari488GTB":
                     break;
@@ -63,6 +67,12 @@ namespace FinalProjectCurs
         private void pictureBox_car3_Click(object sender, EventArgs e)
         {
             pictureBox_car.Image = pictureBox_car3.Image;
+        }
+        private void buttonRezervaAcum_Click_1(object sender, EventArgs e)
+        {
+            //this.Hide();
+            Form2 f2 = new Form2(); //this is the change, code for redirect  
+            f2.ShowDialog();
         }
     }
 }

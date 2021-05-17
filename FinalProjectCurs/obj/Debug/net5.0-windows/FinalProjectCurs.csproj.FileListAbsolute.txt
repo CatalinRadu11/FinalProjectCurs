@@ -17,3 +17,4 @@ C:\Users\.Net\source\repos\FinalProjectCurs\FinalProjectCurs\obj\Debug\net5.0-wi
 C:\Users\.Net\source\repos\FinalProjectCurs\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.pdb
 C:\Users\.Net\source\repos\FinalProjectCurs\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.genruntimeconfig.cache
 C:\Users\.Net\source\repos\FinalProjectCurs\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.Properties.Resources.resources
+C:\Users\.Net\source\repos\FinalProjectCurs\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.Form2.resources
