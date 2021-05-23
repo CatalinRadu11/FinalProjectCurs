@@ -98,3 +98,83 @@ C:\Users\.Net\source\repos\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\ne
 C:\Users\.Net\source\repos\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\ref\FinalProjectCurs.dll
 C:\Users\.Net\source\repos\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.pdb
 C:\Users\.Net\source\repos\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.genruntimeconfig.cache
+C:\Users\rusal\Downloads\FinalProjectCurs-master\FinalProjectCurs\bin\Debug\net5.0-windows\FinalProjectCurs.exe
+C:\Users\rusal\Downloads\FinalProjectCurs-master\FinalProjectCurs\bin\Debug\net5.0-windows\FinalProjectCurs.deps.json
+C:\Users\rusal\Downloads\FinalProjectCurs-master\FinalProjectCurs\bin\Debug\net5.0-windows\FinalProjectCurs.runtimeconfig.json
+C:\Users\rusal\Downloads\FinalProjectCurs-master\FinalProjectCurs\bin\Debug\net5.0-windows\FinalProjectCurs.runtimeconfig.dev.json
+C:\Users\rusal\Downloads\FinalProjectCurs-master\FinalProjectCurs\bin\Debug\net5.0-windows\FinalProjectCurs.dll
+C:\Users\rusal\Downloads\FinalProjectCurs-master\FinalProjectCurs\bin\Debug\net5.0-windows\ref\FinalProjectCurs.dll
+C:\Users\rusal\Downloads\FinalProjectCurs-master\FinalProjectCurs\bin\Debug\net5.0-windows\FinalProjectCurs.pdb
+C:\Users\rusal\Downloads\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.csprojAssemblyReference.cache
+C:\Users\rusal\Downloads\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.Form1.resources
+C:\Users\rusal\Downloads\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.Form2.resources
+C:\Users\rusal\Downloads\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.Properties.Resources.resources
+C:\Users\rusal\Downloads\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.csproj.GenerateResource.cache
+C:\Users\rusal\Downloads\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rusal\Downloads\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.AssemblyInfoInputs.cache
+C:\Users\rusal\Downloads\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.AssemblyInfo.cs
+C:\Users\rusal\Downloads\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.csproj.CoreCompileInputs.cache
+C:\Users\rusal\Downloads\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.dll
+C:\Users\rusal\Downloads\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\ref\FinalProjectCurs.dll
+C:\Users\rusal\Downloads\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.pdb
+C:\Users\rusal\Downloads\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.genruntimeconfig.cache
+C:\Users\rusal\Desktop\erika\proiect final\New folder\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.csprojAssemblyReference.cache
+C:\Users\rusal\Desktop\erika\proiect final\New folder\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.Form1.resources
+C:\Users\rusal\Desktop\erika\proiect final\New folder\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.Form2.resources
+C:\Users\rusal\Desktop\erika\proiect final\New folder\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.Properties.Resources.resources
+C:\Users\rusal\Desktop\erika\proiect final\New folder\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.csproj.GenerateResource.cache
+C:\Users\rusal\Desktop\erika\proiect final\New folder\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rusal\Desktop\erika\proiect final\New folder\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.AssemblyInfoInputs.cache
+C:\Users\rusal\Desktop\erika\proiect final\New folder\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.AssemblyInfo.cs
+C:\Users\rusal\Desktop\erika\proiect final\New folder\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.csproj.CoreCompileInputs.cache
+C:\Users\rusal\Desktop\erika\proiect final\New folder\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.dll
+C:\Users\rusal\Desktop\erika\proiect final\New folder\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\ref\FinalProjectCurs.dll
+C:\Users\rusal\Desktop\erika\proiect final\New folder\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.pdb
+C:\Users\rusal\Desktop\erika\proiect final\New folder\FinalProjectCurs-master\FinalProjectCurs\bin\Debug\net5.0-windows\FinalProjectCurs.exe
+C:\Users\rusal\Desktop\erika\proiect final\New folder\FinalProjectCurs-master\FinalProjectCurs\bin\Debug\net5.0-windows\FinalProjectCurs.deps.json
+C:\Users\rusal\Desktop\erika\proiect final\New folder\FinalProjectCurs-master\FinalProjectCurs\bin\Debug\net5.0-windows\FinalProjectCurs.runtimeconfig.json
+C:\Users\rusal\Desktop\erika\proiect final\New folder\FinalProjectCurs-master\FinalProjectCurs\bin\Debug\net5.0-windows\FinalProjectCurs.runtimeconfig.dev.json
+C:\Users\rusal\Desktop\erika\proiect final\New folder\FinalProjectCurs-master\FinalProjectCurs\bin\Debug\net5.0-windows\FinalProjectCurs.dll
+C:\Users\rusal\Desktop\erika\proiect final\New folder\FinalProjectCurs-master\FinalProjectCurs\bin\Debug\net5.0-windows\ref\FinalProjectCurs.dll
+C:\Users\rusal\Desktop\erika\proiect final\New folder\FinalProjectCurs-master\FinalProjectCurs\bin\Debug\net5.0-windows\FinalProjectCurs.pdb
+C:\Users\rusal\Desktop\erika\proiect final\New folder\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.genruntimeconfig.cache
+C:\Users\rusal\Desktop\FinalProjectCurs-master\FinalProjectCurs-master\FinalProjectCurs\bin\Debug\net5.0-windows\FinalProjectCurs.exe
+C:\Users\rusal\Desktop\FinalProjectCurs-master\FinalProjectCurs-master\FinalProjectCurs\bin\Debug\net5.0-windows\FinalProjectCurs.deps.json
+C:\Users\rusal\Desktop\FinalProjectCurs-master\FinalProjectCurs-master\FinalProjectCurs\bin\Debug\net5.0-windows\FinalProjectCurs.runtimeconfig.json
+C:\Users\rusal\Desktop\FinalProjectCurs-master\FinalProjectCurs-master\FinalProjectCurs\bin\Debug\net5.0-windows\FinalProjectCurs.runtimeconfig.dev.json
+C:\Users\rusal\Desktop\FinalProjectCurs-master\FinalProjectCurs-master\FinalProjectCurs\bin\Debug\net5.0-windows\FinalProjectCurs.dll
+C:\Users\rusal\Desktop\FinalProjectCurs-master\FinalProjectCurs-master\FinalProjectCurs\bin\Debug\net5.0-windows\ref\FinalProjectCurs.dll
+C:\Users\rusal\Desktop\FinalProjectCurs-master\FinalProjectCurs-master\FinalProjectCurs\bin\Debug\net5.0-windows\FinalProjectCurs.pdb
+C:\Users\rusal\Desktop\FinalProjectCurs-master\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.csprojAssemblyReference.cache
+C:\Users\rusal\Desktop\FinalProjectCurs-master\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.Form1.resources
+C:\Users\rusal\Desktop\FinalProjectCurs-master\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.Form2.resources
+C:\Users\rusal\Desktop\FinalProjectCurs-master\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.Properties.Resources.resources
+C:\Users\rusal\Desktop\FinalProjectCurs-master\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.csproj.GenerateResource.cache
+C:\Users\rusal\Desktop\FinalProjectCurs-master\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rusal\Desktop\FinalProjectCurs-master\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.AssemblyInfoInputs.cache
+C:\Users\rusal\Desktop\FinalProjectCurs-master\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.AssemblyInfo.cs
+C:\Users\rusal\Desktop\FinalProjectCurs-master\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.csproj.CoreCompileInputs.cache
+C:\Users\rusal\Desktop\FinalProjectCurs-master\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.dll
+C:\Users\rusal\Desktop\FinalProjectCurs-master\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\ref\FinalProjectCurs.dll
+C:\Users\rusal\Desktop\FinalProjectCurs-master\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.pdb
+C:\Users\rusal\Desktop\FinalProjectCurs-master\FinalProjectCurs-master\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.genruntimeconfig.cache
+C:\Users\rusal\Desktop\FinalProjectCurs-master\proiect\FinalProjectCurs\bin\Debug\net5.0-windows\FinalProjectCurs.exe
+C:\Users\rusal\Desktop\FinalProjectCurs-master\proiect\FinalProjectCurs\bin\Debug\net5.0-windows\FinalProjectCurs.deps.json
+C:\Users\rusal\Desktop\FinalProjectCurs-master\proiect\FinalProjectCurs\bin\Debug\net5.0-windows\FinalProjectCurs.runtimeconfig.json
+C:\Users\rusal\Desktop\FinalProjectCurs-master\proiect\FinalProjectCurs\bin\Debug\net5.0-windows\FinalProjectCurs.runtimeconfig.dev.json
+C:\Users\rusal\Desktop\FinalProjectCurs-master\proiect\FinalProjectCurs\bin\Debug\net5.0-windows\FinalProjectCurs.dll
+C:\Users\rusal\Desktop\FinalProjectCurs-master\proiect\FinalProjectCurs\bin\Debug\net5.0-windows\ref\FinalProjectCurs.dll
+C:\Users\rusal\Desktop\FinalProjectCurs-master\proiect\FinalProjectCurs\bin\Debug\net5.0-windows\FinalProjectCurs.pdb
+C:\Users\rusal\Desktop\FinalProjectCurs-master\proiect\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.csprojAssemblyReference.cache
+C:\Users\rusal\Desktop\FinalProjectCurs-master\proiect\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.Form1.resources
+C:\Users\rusal\Desktop\FinalProjectCurs-master\proiect\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.Form2.resources
+C:\Users\rusal\Desktop\FinalProjectCurs-master\proiect\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.Properties.Resources.resources
+C:\Users\rusal\Desktop\FinalProjectCurs-master\proiect\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.csproj.GenerateResource.cache
+C:\Users\rusal\Desktop\FinalProjectCurs-master\proiect\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rusal\Desktop\FinalProjectCurs-master\proiect\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.AssemblyInfoInputs.cache
+C:\Users\rusal\Desktop\FinalProjectCurs-master\proiect\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.AssemblyInfo.cs
+C:\Users\rusal\Desktop\FinalProjectCurs-master\proiect\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.csproj.CoreCompileInputs.cache
+C:\Users\rusal\Desktop\FinalProjectCurs-master\proiect\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.dll
+C:\Users\rusal\Desktop\FinalProjectCurs-master\proiect\FinalProjectCurs\obj\Debug\net5.0-windows\ref\FinalProjectCurs.dll
+C:\Users\rusal\Desktop\FinalProjectCurs-master\proiect\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.pdb
+C:\Users\rusal\Desktop\FinalProjectCurs-master\proiect\FinalProjectCurs\obj\Debug\net5.0-windows\FinalProjectCurs.genruntimeconfig.cache

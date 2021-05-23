@@ -1,27 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\.Net\\source\\repos\\FinalProject CataR\\FinalProjectCurs\\FinalProjectCurs\\FinalProjectCurs.csproj": {}
+    "C:\\Users\\rusal\\Desktop\\FinalProjectCurs-master\\proiect\\FinalProjectCurs\\FinalProjectCurs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\.Net\\source\\repos\\FinalProject CataR\\FinalProjectCurs\\FinalProjectCurs\\FinalProjectCurs.csproj": {
+    "C:\\Users\\rusal\\Desktop\\FinalProjectCurs-master\\proiect\\FinalProjectCurs\\FinalProjectCurs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\.Net\\source\\repos\\FinalProject CataR\\FinalProjectCurs\\FinalProjectCurs\\FinalProjectCurs.csproj",
+        "projectUniqueName": "C:\\Users\\rusal\\Desktop\\FinalProjectCurs-master\\proiect\\FinalProjectCurs\\FinalProjectCurs.csproj",
         "projectName": "FinalProjectCurs",
-        "projectPath": "C:\\Users\\.Net\\source\\repos\\FinalProject CataR\\FinalProjectCurs\\FinalProjectCurs\\FinalProjectCurs.csproj",
-        "packagesPath": "C:\\Users\\.Net\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\.Net\\source\\repos\\FinalProject CataR\\FinalProjectCurs\\FinalProjectCurs\\obj\\",
+        "projectPath": "C:\\Users\\rusal\\Desktop\\FinalProjectCurs-master\\proiect\\FinalProjectCurs\\FinalProjectCurs.csproj",
+        "packagesPath": "C:\\Users\\rusal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rusal\\Desktop\\FinalProjectCurs-master\\proiect\\FinalProjectCurs\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\.Net\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\rusal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0-windows7.0"

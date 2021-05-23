@@ -24,10 +24,16 @@ namespace FinalProjectCurs
             CarModelEnum myEnum = CarModelEnum.AudiA3;
             string myDesc = myEnum.Description();
 
-            for (CarModelEnum ce = CarModelEnum.AudiA3; ce <= CarModelEnum.RenaultClio; ce++)
+            for (CarModelEnum ce = CarModelEnum.AudiA3; ce <= CarModelEnum.ToyotaAuris; ce++)
             {
                 comboBoxCar.Items.Add(ce.Description());
             }
+
+            comboBoxFuel.Items.Add("Diesel");
+            comboBoxFuel.Items.Add("Benzina");
+            comboBoxFuel.Items.Add("Electric");
+            comboBoxFuel.Items.Add("Hybrid");
+
             //comboBoxCar.DataSource = Enum.GetValues(typeof(CarEnum)); - populate combobox straight from Enum
         }
 
@@ -49,19 +55,19 @@ namespace FinalProjectCurs
                     pictureBox_car.Image = Image.FromFile(dir + "images\\4.png");
                     pictureBox_car1.Image = Image.FromFile(dir + "images\\4.png");
                     pictureBox_car2.Image = Image.FromFile(dir + "images\\44.png");
-                    pictureBox_car3.Image = Image.FromFile(dir + "images\\444.jpg");
+                    pictureBox_car3.Image = Image.FromFile(dir + "images\\444.png");
                     break;
                 case "BMW I8":
                     pictureBox_car.Image = Image.FromFile(dir + "images\\2.png");
                     pictureBox_car1.Image = Image.FromFile(dir + "images\\2.png");
-                    pictureBox_car2.Image = Image.FromFile(dir + "images\\22.jpg");
+                    pictureBox_car2.Image = Image.FromFile(dir + "images\\22.png");
                     pictureBox_car3.Image = Image.FromFile(dir + "images\\222.png");
                     break;
                 case "Hyundai Tucson":
                     pictureBox_car.Image = Image.FromFile(dir + "images\\5.png");
                     pictureBox_car1.Image = Image.FromFile(dir + "images\\5.png");
                     pictureBox_car2.Image = Image.FromFile(dir + "images\\55.png");
-                    pictureBox_car3.Image = Image.FromFile(dir + "images\\555.jpg");
+                    pictureBox_car3.Image = Image.FromFile(dir + "images\\555.png");
                     break;
                 case "Lamborghini Aventador":
                     pictureBox_car.Image = Image.FromFile(dir + "images\\1.png");
@@ -69,11 +75,11 @@ namespace FinalProjectCurs
                     pictureBox_car2.Image = Image.FromFile(dir + "images\\11.png");
                     pictureBox_car3.Image = Image.FromFile(dir + "images\\111.png");
                     break;
-                case "Renault Clio":
-                    pictureBox_car.Image = Image.FromFile(dir + "images\\7.jpg");
-                    pictureBox_car1.Image = Image.FromFile(dir + "images\\7.jpg");
+                case "Toyota Auris":
+                    pictureBox_car.Image = Image.FromFile(dir + "images\\7.png");
+                    pictureBox_car1.Image = Image.FromFile(dir + "images\\7.png");
                     pictureBox_car2.Image = Image.FromFile(dir + "images\\77.png");
-                    pictureBox_car3.Image = Image.FromFile(dir + "images\\777.jpg");
+                    pictureBox_car3.Image = Image.FromFile(dir + "images\\777.png");
                     break;
                 default:
                     MessageBox.Show("Nu ai ales nicio masina!"); //nu functioneaza inca
@@ -101,5 +107,8 @@ namespace FinalProjectCurs
             Form2 f2 = new Form2(); //this is the change, code for redirect  
             f2.ShowDialog();
         }
+
+        
     }
 }
+

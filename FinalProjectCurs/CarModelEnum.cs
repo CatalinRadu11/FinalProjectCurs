@@ -19,7 +19,7 @@ namespace FinalProjectCurs
         HyundaiTucson,
         [Description("Lamborghini Aventador")]
         LamborghiniAventador,
-        [Description("Renault Clio")]
-        RenaultClio
+        [Description("Toyota Auris")]
+        ToyotaAuris
     }
 }
