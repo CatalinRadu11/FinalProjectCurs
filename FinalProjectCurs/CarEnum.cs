@@ -7,11 +7,10 @@ using System.Threading.Tasks;
 namespace FinalProjectCurs
 {
     public enum CarEnum
-    {
-        AudiA3,
-        AudiR8,
+    {   AudiA3,
+        VolkswagenTiguan,
         BMWI8,
-        Ferrari488GTB,
+        HyundaiTucson,
         LamborghiniAventador,
         RenaulClio
     }

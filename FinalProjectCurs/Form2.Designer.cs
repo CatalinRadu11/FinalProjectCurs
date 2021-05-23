@@ -31,42 +31,42 @@ namespace FinalProjectCurs
         {
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.splitter2 = new System.Windows.Forms.Splitter();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxCarForm2 = new System.Windows.Forms.PictureBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
+            this.labelDataPreluarii = new System.Windows.Forms.Label();
+            this.labelDataPredarii = new System.Windows.Forms.Label();
+            this.labelAlegeDatele = new System.Windows.Forms.Label();
+            this.labelDatePersonale = new System.Windows.Forms.Label();
+            this.labelNume = new System.Windows.Forms.Label();
+            this.labelEmail = new System.Windows.Forms.Label();
+            this.labelTelefon = new System.Windows.Forms.Label();
+            this.textBoxNume = new System.Windows.Forms.TextBox();
+            this.textBoxEmail = new System.Windows.Forms.TextBox();
+            this.textBoxTelefon = new System.Windows.Forms.TextBox();
+            this.labelInfoTelefon = new System.Windows.Forms.Label();
+            this.textBoxMesaj = new System.Windows.Forms.TextBox();
+            this.labelMesaj = new System.Windows.Forms.Label();
+            this.textBoxSumarRezervare = new System.Windows.Forms.TextBox();
+            this.labelSumarRezervare = new System.Windows.Forms.Label();
             this.buttonTrimiteRezervarea = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.comboBoxPreluare = new System.Windows.Forms.ComboBox();
+            this.comboBoxMinutePreluare = new System.Windows.Forms.ComboBox();
+            this.labelOraPreluare = new System.Windows.Forms.Label();
+            this.labelMinutePreluare = new System.Windows.Forms.Label();
+            this.labelOraPredare = new System.Windows.Forms.Label();
+            this.labelMinutePredare = new System.Windows.Forms.Label();
+            this.comboBoxOraPredare = new System.Windows.Forms.ComboBox();
+            this.comboBoxMinutePredare = new System.Windows.Forms.ComboBox();
             this.splitter3 = new System.Windows.Forms.Splitter();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.label18 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.labelPlata = new System.Windows.Forms.Label();
+            this.labelPlataCash = new System.Windows.Forms.Label();
+            this.checkBoxPlataCash = new System.Windows.Forms.CheckBox();
+            this.labelPlataLivrare = new System.Windows.Forms.Label();
+            this.checkBoxPlataLivrare = new System.Windows.Forms.CheckBox();
+            this.checkBoxTermeniCond = new System.Windows.Forms.CheckBox();
+            this.labelTermeniCond = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCarForm2)).BeginInit();
             this.SuspendLayout();
             // 
             // splitter1
@@ -86,13 +86,13 @@ namespace FinalProjectCurs
             this.splitter2.TabIndex = 1;
             this.splitter2.TabStop = false;
             // 
-            // pictureBox1
+            // pictureBoxCarForm2
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(67, 45);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(596, 276);
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
+            this.pictureBoxCarForm2.Location = new System.Drawing.Point(67, 45);
+            this.pictureBoxCarForm2.Name = "pictureBoxCarForm2";
+            this.pictureBoxCarForm2.Size = new System.Drawing.Size(596, 276);
+            this.pictureBoxCarForm2.TabIndex = 2;
+            this.pictureBoxCarForm2.TabStop = false;
             // 
             // dateTimePicker1
             // 
@@ -100,6 +100,7 @@ namespace FinalProjectCurs
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(197, 23);
             this.dateTimePicker1.TabIndex = 3;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // dateTimePicker2
             // 
@@ -107,155 +108,154 @@ namespace FinalProjectCurs
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(197, 23);
             this.dateTimePicker2.TabIndex = 4;
+            this.dateTimePicker2.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
             // 
-            // label3
+            // labelDataPreluarii
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(719, 82);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(107, 21);
-            this.label3.TabIndex = 14;
-            this.label3.Text = "Data preluarii:";
+            this.labelDataPreluarii.AutoSize = true;
+            this.labelDataPreluarii.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelDataPreluarii.ForeColor = System.Drawing.Color.Black;
+            this.labelDataPreluarii.Location = new System.Drawing.Point(719, 82);
+            this.labelDataPreluarii.Name = "labelDataPreluarii";
+            this.labelDataPreluarii.Size = new System.Drawing.Size(107, 21);
+            this.labelDataPreluarii.TabIndex = 14;
+            this.labelDataPreluarii.Text = "Data preluarii:";
             // 
-            // label1
+            // labelDataPredarii
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(719, 177);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 21);
-            this.label1.TabIndex = 15;
-            this.label1.Text = "Data predarii:";
+            this.labelDataPredarii.AutoSize = true;
+            this.labelDataPredarii.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelDataPredarii.ForeColor = System.Drawing.Color.Black;
+            this.labelDataPredarii.Location = new System.Drawing.Point(719, 177);
+            this.labelDataPredarii.Name = "labelDataPredarii";
+            this.labelDataPredarii.Size = new System.Drawing.Size(103, 21);
+            this.labelDataPredarii.TabIndex = 15;
+            this.labelDataPredarii.Text = "Data predarii:";
             // 
-            // label2
+            // labelAlegeDatele
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(719, 9);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(146, 25);
-            this.label2.TabIndex = 16;
-            this.label2.Text = "ALEGE DATELE:";
+            this.labelAlegeDatele.AutoSize = true;
+            this.labelAlegeDatele.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelAlegeDatele.ForeColor = System.Drawing.Color.Black;
+            this.labelAlegeDatele.Location = new System.Drawing.Point(719, 9);
+            this.labelAlegeDatele.Name = "labelAlegeDatele";
+            this.labelAlegeDatele.Size = new System.Drawing.Size(146, 25);
+            this.labelAlegeDatele.TabIndex = 16;
+            this.labelAlegeDatele.Text = "ALEGE DATELE:";
             // 
-            // label4
+            // labelDatePersonale
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(719, 279);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(176, 25);
-            this.label4.TabIndex = 17;
-            this.label4.Text = "DATE PERSONALE:";
+            this.labelDatePersonale.AutoSize = true;
+            this.labelDatePersonale.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelDatePersonale.ForeColor = System.Drawing.Color.Black;
+            this.labelDatePersonale.Location = new System.Drawing.Point(719, 279);
+            this.labelDatePersonale.Name = "labelDatePersonale";
+            this.labelDatePersonale.Size = new System.Drawing.Size(176, 25);
+            this.labelDatePersonale.TabIndex = 17;
+            this.labelDatePersonale.Text = "DATE PERSONALE:";
             // 
-            // label5
+            // labelNume
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(719, 334);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(56, 21);
-            this.label5.TabIndex = 18;
-            this.label5.Text = "Nume:";
+            this.labelNume.AutoSize = true;
+            this.labelNume.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelNume.ForeColor = System.Drawing.Color.Black;
+            this.labelNume.Location = new System.Drawing.Point(719, 334);
+            this.labelNume.Name = "labelNume";
+            this.labelNume.Size = new System.Drawing.Size(56, 21);
+            this.labelNume.TabIndex = 18;
+            this.labelNume.Text = "Nume:";
             // 
-            // label6
+            // labelEmail
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(719, 401);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(51, 21);
-            this.label6.TabIndex = 19;
-            this.label6.Text = "Email:";
+            this.labelEmail.AutoSize = true;
+            this.labelEmail.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelEmail.ForeColor = System.Drawing.Color.Black;
+            this.labelEmail.Location = new System.Drawing.Point(719, 401);
+            this.labelEmail.Name = "labelEmail";
+            this.labelEmail.Size = new System.Drawing.Size(51, 21);
+            this.labelEmail.TabIndex = 19;
+            this.labelEmail.Text = "Email:";
             // 
-            // label7
+            // labelTelefon
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(719, 474);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(62, 21);
-            this.label7.TabIndex = 20;
-            this.label7.Text = "Telefon:";
+            this.labelTelefon.AutoSize = true;
+            this.labelTelefon.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelTelefon.ForeColor = System.Drawing.Color.Black;
+            this.labelTelefon.Location = new System.Drawing.Point(719, 474);
+            this.labelTelefon.Name = "labelTelefon";
+            this.labelTelefon.Size = new System.Drawing.Size(62, 21);
+            this.labelTelefon.TabIndex = 20;
+            this.labelTelefon.Text = "Telefon:";
             // 
-            // textBox1
+            // textBoxNume
             // 
-            this.textBox1.Location = new System.Drawing.Point(719, 358);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(241, 23);
-            this.textBox1.TabIndex = 21;
+            this.textBoxNume.Location = new System.Drawing.Point(719, 358);
+            this.textBoxNume.Name = "textBoxNume";
+            this.textBoxNume.Size = new System.Drawing.Size(241, 23);
+            this.textBoxNume.TabIndex = 21;
             // 
-            // textBox2
+            // textBoxEmail
             // 
-            this.textBox2.Location = new System.Drawing.Point(719, 425);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(241, 23);
-            this.textBox2.TabIndex = 22;
+            this.textBoxEmail.Location = new System.Drawing.Point(719, 425);
+            this.textBoxEmail.Name = "textBoxEmail";
+            this.textBoxEmail.Size = new System.Drawing.Size(241, 23);
+            this.textBoxEmail.TabIndex = 22;
             // 
-            // textBox3
+            // textBoxTelefon
             // 
-            this.textBox3.Location = new System.Drawing.Point(728, 502);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(241, 23);
-            this.textBox3.TabIndex = 23;
+            this.textBoxTelefon.Location = new System.Drawing.Point(719, 498);
+            this.textBoxTelefon.Name = "textBoxTelefon";
+            this.textBoxTelefon.Size = new System.Drawing.Size(241, 23);
+            this.textBoxTelefon.TabIndex = 23;
             // 
-            // label8
+            // labelInfoTelefon
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(719, 528);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(241, 15);
-            this.label8.TabIndex = 24;
-            this.label8.Text = " Introduceti prefixul tarii. Ex: +40 750 000 000";
+            this.labelInfoTelefon.AutoSize = true;
+            this.labelInfoTelefon.Location = new System.Drawing.Point(719, 528);
+            this.labelInfoTelefon.Name = "labelInfoTelefon";
+            this.labelInfoTelefon.Size = new System.Drawing.Size(241, 15);
+            this.labelInfoTelefon.TabIndex = 24;
+            this.labelInfoTelefon.Text = " Introduceti prefixul tarii. Ex: +40 750 000 000";
             // 
-            // textBox4
+            // textBoxMesaj
             // 
-            this.textBox4.Location = new System.Drawing.Point(1011, 358);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(218, 163);
-            this.textBox4.TabIndex = 25;
+            this.textBoxMesaj.Location = new System.Drawing.Point(992, 358);
+            this.textBoxMesaj.Multiline = true;
+            this.textBoxMesaj.Name = "textBoxMesaj";
+            this.textBoxMesaj.Size = new System.Drawing.Size(237, 163);
+            this.textBoxMesaj.TabIndex = 25;
             // 
-            // label9
+            // labelMesaj
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(1011, 334);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(54, 21);
-            this.label9.TabIndex = 26;
-            this.label9.Text = "Mesaj:";
+            this.labelMesaj.AutoSize = true;
+            this.labelMesaj.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelMesaj.ForeColor = System.Drawing.Color.Black;
+            this.labelMesaj.Location = new System.Drawing.Point(992, 334);
+            this.labelMesaj.Name = "labelMesaj";
+            this.labelMesaj.Size = new System.Drawing.Size(54, 21);
+            this.labelMesaj.TabIndex = 26;
+            this.labelMesaj.Text = "Mesaj:";
             // 
-            // textBox5
+            // textBoxSumarRezervare
             // 
-            this.textBox5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox5.Location = new System.Drawing.Point(121, 518);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(463, 109);
-            this.textBox5.TabIndex = 27;
-            this.textBox5.Text = "Nr. zile inchiriere: 3 Zile (se calculeaza in functie de data preluarii si data p" +
-    "redarii selectate)\r\n\r\nGarantie: 500 € (static)\r\n\r\nTotal: 147€";
-            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBoxSumarRezervare.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBoxSumarRezervare.Location = new System.Drawing.Point(121, 518);
+            this.textBoxSumarRezervare.Multiline = true;
+            this.textBoxSumarRezervare.Name = "textBoxSumarRezervare";
+            this.textBoxSumarRezervare.Size = new System.Drawing.Size(463, 109);
+            this.textBoxSumarRezervare.TabIndex = 27;
+            this.textBoxSumarRezervare.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // label11
+            // labelSumarRezervare
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(250, 490);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(168, 25);
-            this.label11.TabIndex = 29;
-            this.label11.Text = "Sumar Rezervare:";
+            this.labelSumarRezervare.AutoSize = true;
+            this.labelSumarRezervare.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelSumarRezervare.ForeColor = System.Drawing.Color.Black;
+            this.labelSumarRezervare.Location = new System.Drawing.Point(250, 490);
+            this.labelSumarRezervare.Name = "labelSumarRezervare";
+            this.labelSumarRezervare.Size = new System.Drawing.Size(168, 25);
+            this.labelSumarRezervare.TabIndex = 29;
+            this.labelSumarRezervare.Text = "Sumar Rezervare:";
             // 
             // buttonTrimiteRezervarea
             // 
@@ -266,10 +266,10 @@ namespace FinalProjectCurs
             this.buttonTrimiteRezervarea.Text = "Trimite Rezervarea";
             this.buttonTrimiteRezervarea.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
+            // comboBoxPreluare
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.comboBoxPreluare.FormattingEnabled = true;
+            this.comboBoxPreluare.Items.AddRange(new object[] {
             "00",
             "01",
             "02",
@@ -294,15 +294,15 @@ namespace FinalProjectCurs
             "21",
             "22",
             "23"});
-            this.comboBox1.Location = new System.Drawing.Point(1020, 106);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(55, 23);
-            this.comboBox1.TabIndex = 32;
+            this.comboBoxPreluare.Location = new System.Drawing.Point(1020, 106);
+            this.comboBoxPreluare.Name = "comboBoxPreluare";
+            this.comboBoxPreluare.Size = new System.Drawing.Size(55, 23);
+            this.comboBoxPreluare.TabIndex = 32;
             // 
-            // comboBox3
+            // comboBoxMinutePreluare
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.comboBoxMinutePreluare.FormattingEnabled = true;
+            this.comboBoxMinutePreluare.Items.AddRange(new object[] {
             "00",
             "01",
             "02",
@@ -363,59 +363,59 @@ namespace FinalProjectCurs
             "57",
             "58",
             "59"});
-            this.comboBox3.Location = new System.Drawing.Point(1153, 106);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(55, 23);
-            this.comboBox3.TabIndex = 35;
+            this.comboBoxMinutePreluare.Location = new System.Drawing.Point(1153, 106);
+            this.comboBoxMinutePreluare.Name = "comboBoxMinutePreluare";
+            this.comboBoxMinutePreluare.Size = new System.Drawing.Size(55, 23);
+            this.comboBoxMinutePreluare.TabIndex = 35;
             // 
-            // label10
+            // labelOraPreluare
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(1019, 82);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(39, 21);
-            this.label10.TabIndex = 37;
-            this.label10.Text = "Ora:";
+            this.labelOraPreluare.AutoSize = true;
+            this.labelOraPreluare.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelOraPreluare.ForeColor = System.Drawing.Color.Black;
+            this.labelOraPreluare.Location = new System.Drawing.Point(1019, 82);
+            this.labelOraPreluare.Name = "labelOraPreluare";
+            this.labelOraPreluare.Size = new System.Drawing.Size(39, 21);
+            this.labelOraPreluare.TabIndex = 37;
+            this.labelOraPreluare.Text = "Ora:";
             // 
-            // label12
+            // labelMinutePreluare
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label12.ForeColor = System.Drawing.Color.Black;
-            this.label12.Location = new System.Drawing.Point(1152, 82);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(62, 21);
-            this.label12.TabIndex = 38;
-            this.label12.Text = "Minute:";
+            this.labelMinutePreluare.AutoSize = true;
+            this.labelMinutePreluare.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelMinutePreluare.ForeColor = System.Drawing.Color.Black;
+            this.labelMinutePreluare.Location = new System.Drawing.Point(1152, 82);
+            this.labelMinutePreluare.Name = "labelMinutePreluare";
+            this.labelMinutePreluare.Size = new System.Drawing.Size(62, 21);
+            this.labelMinutePreluare.TabIndex = 38;
+            this.labelMinutePreluare.Text = "Minute:";
             // 
-            // label13
+            // labelOraPredare
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label13.ForeColor = System.Drawing.Color.Black;
-            this.label13.Location = new System.Drawing.Point(1019, 180);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(39, 21);
-            this.label13.TabIndex = 39;
-            this.label13.Text = "Ora:";
+            this.labelOraPredare.AutoSize = true;
+            this.labelOraPredare.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelOraPredare.ForeColor = System.Drawing.Color.Black;
+            this.labelOraPredare.Location = new System.Drawing.Point(1019, 180);
+            this.labelOraPredare.Name = "labelOraPredare";
+            this.labelOraPredare.Size = new System.Drawing.Size(39, 21);
+            this.labelOraPredare.TabIndex = 39;
+            this.labelOraPredare.Text = "Ora:";
             // 
-            // label14
+            // labelMinutePredare
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label14.ForeColor = System.Drawing.Color.Black;
-            this.label14.Location = new System.Drawing.Point(1153, 180);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(62, 21);
-            this.label14.TabIndex = 40;
-            this.label14.Text = "Minute:";
+            this.labelMinutePredare.AutoSize = true;
+            this.labelMinutePredare.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelMinutePredare.ForeColor = System.Drawing.Color.Black;
+            this.labelMinutePredare.Location = new System.Drawing.Point(1153, 180);
+            this.labelMinutePredare.Name = "labelMinutePredare";
+            this.labelMinutePredare.Size = new System.Drawing.Size(62, 21);
+            this.labelMinutePredare.TabIndex = 40;
+            this.labelMinutePredare.Text = "Minute:";
             // 
-            // comboBox2
+            // comboBoxOraPredare
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.comboBoxOraPredare.FormattingEnabled = true;
+            this.comboBoxOraPredare.Items.AddRange(new object[] {
             "00",
             "01",
             "02",
@@ -440,15 +440,15 @@ namespace FinalProjectCurs
             "21",
             "22",
             "23"});
-            this.comboBox2.Location = new System.Drawing.Point(1020, 201);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(55, 23);
-            this.comboBox2.TabIndex = 41;
+            this.comboBoxOraPredare.Location = new System.Drawing.Point(1020, 201);
+            this.comboBoxOraPredare.Name = "comboBoxOraPredare";
+            this.comboBoxOraPredare.Size = new System.Drawing.Size(55, 23);
+            this.comboBoxOraPredare.TabIndex = 41;
             // 
-            // comboBox4
+            // comboBoxMinutePredare
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
+            this.comboBoxMinutePredare.FormattingEnabled = true;
+            this.comboBoxMinutePredare.Items.AddRange(new object[] {
             "00",
             "01",
             "02",
@@ -509,10 +509,10 @@ namespace FinalProjectCurs
             "57",
             "58",
             "59"});
-            this.comboBox4.Location = new System.Drawing.Point(1152, 201);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(55, 23);
-            this.comboBox4.TabIndex = 42;
+            this.comboBoxMinutePredare.Location = new System.Drawing.Point(1152, 201);
+            this.comboBoxMinutePredare.Name = "comboBoxMinutePredare";
+            this.comboBoxMinutePredare.Size = new System.Drawing.Size(55, 23);
+            this.comboBoxMinutePredare.TabIndex = 42;
             // 
             // splitter3
             // 
@@ -523,122 +523,124 @@ namespace FinalProjectCurs
             this.splitter3.TabIndex = 43;
             this.splitter3.TabStop = false;
             // 
-            // label15
+            // labelPlata
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label15.ForeColor = System.Drawing.Color.Black;
-            this.label15.Location = new System.Drawing.Point(729, 558);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(69, 25);
-            this.label15.TabIndex = 44;
-            this.label15.Text = "PLATA";
+            this.labelPlata.AutoSize = true;
+            this.labelPlata.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelPlata.ForeColor = System.Drawing.Color.Black;
+            this.labelPlata.Location = new System.Drawing.Point(729, 558);
+            this.labelPlata.Name = "labelPlata";
+            this.labelPlata.Size = new System.Drawing.Size(69, 25);
+            this.labelPlata.TabIndex = 44;
+            this.labelPlata.Text = "PLATA";
             // 
-            // label16
+            // labelPlataCash
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label16.ForeColor = System.Drawing.Color.Black;
-            this.label16.Location = new System.Drawing.Point(754, 581);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(215, 21);
-            this.label16.TabIndex = 45;
-            this.label16.Text = "Plata cash la primirea masinii:";
+            this.labelPlataCash.AutoSize = true;
+            this.labelPlataCash.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelPlataCash.ForeColor = System.Drawing.Color.Black;
+            this.labelPlataCash.Location = new System.Drawing.Point(754, 581);
+            this.labelPlataCash.Name = "labelPlataCash";
+            this.labelPlataCash.Size = new System.Drawing.Size(215, 21);
+            this.labelPlataCash.TabIndex = 45;
+            this.labelPlataCash.Text = "Plata cash la primirea masinii:";
             // 
-            // checkBox1
+            // checkBoxPlataCash
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(738, 588);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
-            this.checkBox1.TabIndex = 49;
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBoxPlataCash.AutoSize = true;
+            this.checkBoxPlataCash.Location = new System.Drawing.Point(738, 588);
+            this.checkBoxPlataCash.Name = "checkBoxPlataCash";
+            this.checkBoxPlataCash.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxPlataCash.TabIndex = 49;
+            this.checkBoxPlataCash.UseVisualStyleBackColor = true;
+            this.checkBoxPlataCash.CheckedChanged += new System.EventHandler(this.checkBoxPlataCash_CheckedChanged);
             // 
-            // label17
+            // labelPlataLivrare
             // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label17.ForeColor = System.Drawing.Color.Black;
-            this.label17.Location = new System.Drawing.Point(754, 606);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(178, 21);
-            this.label17.TabIndex = 50;
-            this.label17.Text = "Plata la livrare cu cardul:";
+            this.labelPlataLivrare.AutoSize = true;
+            this.labelPlataLivrare.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelPlataLivrare.ForeColor = System.Drawing.Color.Black;
+            this.labelPlataLivrare.Location = new System.Drawing.Point(754, 606);
+            this.labelPlataLivrare.Name = "labelPlataLivrare";
+            this.labelPlataLivrare.Size = new System.Drawing.Size(178, 21);
+            this.labelPlataLivrare.TabIndex = 50;
+            this.labelPlataLivrare.Text = "Plata la livrare cu cardul:";
             // 
-            // checkBox2
+            // checkBoxPlataLivrare
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(738, 613);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(15, 14);
-            this.checkBox2.TabIndex = 51;
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBoxPlataLivrare.AutoSize = true;
+            this.checkBoxPlataLivrare.Location = new System.Drawing.Point(738, 613);
+            this.checkBoxPlataLivrare.Name = "checkBoxPlataLivrare";
+            this.checkBoxPlataLivrare.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxPlataLivrare.TabIndex = 51;
+            this.checkBoxPlataLivrare.UseVisualStyleBackColor = true;
+            this.checkBoxPlataLivrare.CheckedChanged += new System.EventHandler(this.checkBoxPlataLivrare_CheckedChanged);
             // 
-            // checkBox3
+            // checkBoxTermeniCond
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(717, 660);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(15, 14);
-            this.checkBox3.TabIndex = 52;
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBoxTermeniCond.AutoSize = true;
+            this.checkBoxTermeniCond.Location = new System.Drawing.Point(717, 660);
+            this.checkBoxTermeniCond.Name = "checkBoxTermeniCond";
+            this.checkBoxTermeniCond.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxTermeniCond.TabIndex = 52;
+            this.checkBoxTermeniCond.UseVisualStyleBackColor = true;
             // 
-            // label18
+            // labelTermeniCond
             // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label18.ForeColor = System.Drawing.Color.Black;
-            this.label18.Location = new System.Drawing.Point(738, 654);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(280, 21);
-            this.label18.TabIndex = 53;
-            this.label18.Text = "Sunt de accord cu termenii si conditiile.";
+            this.labelTermeniCond.AutoSize = true;
+            this.labelTermeniCond.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelTermeniCond.ForeColor = System.Drawing.Color.Black;
+            this.labelTermeniCond.Location = new System.Drawing.Point(738, 654);
+            this.labelTermeniCond.Name = "labelTermeniCond";
+            this.labelTermeniCond.Size = new System.Drawing.Size(280, 21);
+            this.labelTermeniCond.TabIndex = 53;
+            this.labelTermeniCond.Text = "Sunt de accord cu termenii si conditiile.";
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1240, 679);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label15);
+            this.Controls.Add(this.labelTermeniCond);
+            this.Controls.Add(this.checkBoxTermeniCond);
+            this.Controls.Add(this.checkBoxPlataLivrare);
+            this.Controls.Add(this.labelPlataLivrare);
+            this.Controls.Add(this.checkBoxPlataCash);
+            this.Controls.Add(this.labelPlataCash);
+            this.Controls.Add(this.labelPlata);
             this.Controls.Add(this.splitter3);
-            this.Controls.Add(this.comboBox4);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.comboBoxMinutePredare);
+            this.Controls.Add(this.comboBoxOraPredare);
+            this.Controls.Add(this.labelMinutePredare);
+            this.Controls.Add(this.labelOraPredare);
+            this.Controls.Add(this.labelMinutePreluare);
+            this.Controls.Add(this.labelOraPreluare);
+            this.Controls.Add(this.comboBoxMinutePreluare);
+            this.Controls.Add(this.comboBoxPreluare);
             this.Controls.Add(this.buttonTrimiteRezervarea);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.labelSumarRezervare);
+            this.Controls.Add(this.textBoxSumarRezervare);
+            this.Controls.Add(this.labelMesaj);
+            this.Controls.Add(this.textBoxMesaj);
+            this.Controls.Add(this.labelInfoTelefon);
+            this.Controls.Add(this.textBoxTelefon);
+            this.Controls.Add(this.textBoxEmail);
+            this.Controls.Add(this.textBoxNume);
+            this.Controls.Add(this.labelTelefon);
+            this.Controls.Add(this.labelEmail);
+            this.Controls.Add(this.labelNume);
+            this.Controls.Add(this.labelDatePersonale);
+            this.Controls.Add(this.labelAlegeDatele);
+            this.Controls.Add(this.labelDataPredarii);
+            this.Controls.Add(this.labelDataPreluarii);
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBoxCarForm2);
             this.Controls.Add(this.splitter2);
             this.Controls.Add(this.splitter1);
             this.Name = "Form2";
             this.Text = "Form2";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCarForm2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -648,40 +650,40 @@ namespace FinalProjectCurs
 
         private System.Windows.Forms.Splitter splitter1;
         private System.Windows.Forms.Splitter splitter2;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBoxCarForm2;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label labelDataPreluarii;
+        private System.Windows.Forms.Label labelDataPredarii;
+        private System.Windows.Forms.Label labelAlegeDatele;
+        private System.Windows.Forms.Label labelDatePersonale;
+        private System.Windows.Forms.Label labelNume;
+        private System.Windows.Forms.Label labelEmail;
+        private System.Windows.Forms.Label labelTelefon;
+        private System.Windows.Forms.TextBox textBoxNume;
+        private System.Windows.Forms.TextBox textBoxEmail;
+        private System.Windows.Forms.TextBox textBoxTelefon;
+        private System.Windows.Forms.Label labelInfoTelefon;
+        private System.Windows.Forms.TextBox textBoxMesaj;
+        private System.Windows.Forms.Label labelMesaj;
+        private System.Windows.Forms.TextBox textBoxSumarRezervare;
+        private System.Windows.Forms.Label labelSumarRezervare;
         private System.Windows.Forms.Button buttonTrimiteRezervarea;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox comboBoxPreluare;
+        private System.Windows.Forms.ComboBox comboBoxMinutePreluare;
+        private System.Windows.Forms.Label labelOraPreluare;
+        private System.Windows.Forms.Label labelMinutePreluare;
+        private System.Windows.Forms.Label labelOraPredare;
+        private System.Windows.Forms.Label labelMinutePredare;
+        private System.Windows.Forms.ComboBox comboBoxOraPredare;
+        private System.Windows.Forms.ComboBox comboBoxMinutePredare;
         private System.Windows.Forms.Splitter splitter3;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label labelPlata;
+        private System.Windows.Forms.Label labelPlataCash;
+        private System.Windows.Forms.CheckBox checkBoxPlataCash;
+        private System.Windows.Forms.Label labelPlataLivrare;
+        private System.Windows.Forms.CheckBox checkBoxPlataLivrare;
+        private System.Windows.Forms.CheckBox checkBoxTermeniCond;
+        private System.Windows.Forms.Label labelTermeniCond;
     }
 }
