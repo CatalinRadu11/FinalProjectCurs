@@ -35,21 +35,21 @@ namespace FinalProjectCurs
             this.label5 = new System.Windows.Forms.Label();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.comboBoxMasina = new System.Windows.Forms.ComboBox();
+            this.comboBoxCar = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.labelLocation = new System.Windows.Forms.Label();
+            this.labelCompanyName = new System.Windows.Forms.Label();
             this.labelEmail = new System.Windows.Forms.Label();
             this.labelPhone = new System.Windows.Forms.Label();
             this.pictureBoxPhone = new System.Windows.Forms.PictureBox();
             this.pictureBoxEmail = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxCarDescription = new System.Windows.Forms.TextBox();
             this.pictureBox_car1 = new System.Windows.Forms.PictureBox();
             this.pictureBox_car2 = new System.Windows.Forms.PictureBox();
             this.pictureBox_car3 = new System.Windows.Forms.PictureBox();
             this.pictureBox_car = new System.Windows.Forms.PictureBox();
-            this.label27 = new System.Windows.Forms.Label();
+            this.labelPrice = new System.Windows.Forms.Label();
             this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -73,29 +73,31 @@ namespace FinalProjectCurs
             // splitContainer1.Panel1
             // 
             this.splitContainer1.Panel1.BackColor = System.Drawing.Color.Transparent;
+            this.splitContainer1.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.splitContainer1.Panel1.Controls.Add(this.buttonRezervaAcum);
             this.splitContainer1.Panel1.Controls.Add(this.label5);
             this.splitContainer1.Panel1.Controls.Add(this.dateTimePicker2);
             this.splitContainer1.Panel1.Controls.Add(this.dateTimePicker1);
-            this.splitContainer1.Panel1.Controls.Add(this.comboBoxMasina);
+            this.splitContainer1.Panel1.Controls.Add(this.comboBoxCar);
             this.splitContainer1.Panel1.Controls.Add(this.label4);
             this.splitContainer1.Panel1.Controls.Add(this.label3);
-            this.splitContainer1.Panel1.Controls.Add(this.label2);
-            this.splitContainer1.Panel1.Controls.Add(this.label1);
+            this.splitContainer1.Panel1.Controls.Add(this.labelLocation);
+            this.splitContainer1.Panel1.Controls.Add(this.labelCompanyName);
             // 
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.BackColor = System.Drawing.Color.Transparent;
+            this.splitContainer1.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.splitContainer1.Panel2.Controls.Add(this.labelEmail);
             this.splitContainer1.Panel2.Controls.Add(this.labelPhone);
             this.splitContainer1.Panel2.Controls.Add(this.pictureBoxPhone);
             this.splitContainer1.Panel2.Controls.Add(this.pictureBoxEmail);
-            this.splitContainer1.Panel2.Controls.Add(this.textBox1);
+            this.splitContainer1.Panel2.Controls.Add(this.textBoxCarDescription);
             this.splitContainer1.Panel2.Controls.Add(this.pictureBox_car1);
             this.splitContainer1.Panel2.Controls.Add(this.pictureBox_car2);
             this.splitContainer1.Panel2.Controls.Add(this.pictureBox_car3);
             this.splitContainer1.Panel2.Controls.Add(this.pictureBox_car);
-            this.splitContainer1.Panel2.Controls.Add(this.label27);
+            this.splitContainer1.Panel2.Controls.Add(this.labelPrice);
             this.splitContainer1.Panel2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.splitContainer1.Size = new System.Drawing.Size(1269, 721);
             this.splitContainer1.SplitterDistance = 423;
@@ -136,14 +138,15 @@ namespace FinalProjectCurs
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 23);
             this.dateTimePicker1.TabIndex = 16;
             // 
-            // comboBoxMasina
+            // comboBoxCar
             // 
-            this.comboBoxMasina.FormattingEnabled = true;
-            this.comboBoxMasina.Location = new System.Drawing.Point(98, 485);
-            this.comboBoxMasina.Name = "comboBoxMasina";
-            this.comboBoxMasina.Size = new System.Drawing.Size(200, 23);
-            this.comboBoxMasina.TabIndex = 15;
-            this.comboBoxMasina.SelectedIndexChanged += new System.EventHandler(this.comboBoxMasina_SelectedIndexChanged);
+            this.comboBoxCar.FormattingEnabled = true;
+            this.comboBoxCar.Location = new System.Drawing.Point(98, 485);
+            this.comboBoxCar.Name = "comboBoxCar";
+            this.comboBoxCar.Size = new System.Drawing.Size(200, 23);
+            this.comboBoxCar.TabIndex = 15;
+            this.comboBoxCar.Text = "----------Alegeti o masina----------";
+            this.comboBoxCar.SelectedIndexChanged += new System.EventHandler(this.comboBoxCar_SelectedIndexChanged);
             // 
             // label4
             // 
@@ -167,27 +170,27 @@ namespace FinalProjectCurs
             this.label3.TabIndex = 13;
             this.label3.Text = "De la data de:";
             // 
-            // label2
+            // labelLocation
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(69, 182);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(283, 25);
-            this.label2.TabIndex = 12;
-            this.label2.Text = "Locatie: Aeroport Cluj-Napoca";
+            this.labelLocation.AutoSize = true;
+            this.labelLocation.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelLocation.ForeColor = System.Drawing.Color.Black;
+            this.labelLocation.Location = new System.Drawing.Point(69, 182);
+            this.labelLocation.Name = "labelLocation";
+            this.labelLocation.Size = new System.Drawing.Size(283, 25);
+            this.labelLocation.TabIndex = 12;
+            this.labelLocation.Text = "Locatie: Aeroport Cluj-Napoca";
             // 
-            // label1
+            // labelCompanyName
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(69, 134);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(135, 32);
-            this.label1.TabIndex = 11;
-            this.label1.Text = "Rent A Car";
+            this.labelCompanyName.AutoSize = true;
+            this.labelCompanyName.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelCompanyName.ForeColor = System.Drawing.Color.Black;
+            this.labelCompanyName.Location = new System.Drawing.Point(69, 134);
+            this.labelCompanyName.Name = "labelCompanyName";
+            this.labelCompanyName.Size = new System.Drawing.Size(135, 32);
+            this.labelCompanyName.TabIndex = 11;
+            this.labelCompanyName.Text = "Rent A Car";
             // 
             // labelEmail
             // 
@@ -229,13 +232,13 @@ namespace FinalProjectCurs
             this.pictureBoxEmail.TabIndex = 18;
             this.pictureBoxEmail.TabStop = false;
             // 
-            // textBox1
+            // textBoxCarDescription
             // 
-            this.textBox1.Location = new System.Drawing.Point(160, 579);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(383, 118);
-            this.textBox1.TabIndex = 17;
+            this.textBoxCarDescription.Location = new System.Drawing.Point(160, 579);
+            this.textBoxCarDescription.Multiline = true;
+            this.textBoxCarDescription.Name = "textBoxCarDescription";
+            this.textBoxCarDescription.Size = new System.Drawing.Size(383, 118);
+            this.textBoxCarDescription.TabIndex = 17;
             // 
             // pictureBox_car1
             // 
@@ -277,15 +280,15 @@ namespace FinalProjectCurs
             this.pictureBox_car.TabIndex = 13;
             this.pictureBox_car.TabStop = false;
             // 
-            // label27
+            // labelPrice
             // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label27.Location = new System.Drawing.Point(38, 611);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(116, 54);
-            this.label27.TabIndex = 12;
-            this.label27.Text = "Price";
+            this.labelPrice.AutoSize = true;
+            this.labelPrice.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelPrice.Location = new System.Drawing.Point(38, 611);
+            this.labelPrice.Name = "labelPrice";
+            this.labelPrice.Size = new System.Drawing.Size(116, 54);
+            this.labelPrice.TabIndex = 12;
+            this.labelPrice.Text = "Price";
             // 
             // fileSystemWatcher1
             // 
@@ -326,19 +329,19 @@ namespace FinalProjectCurs
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.ComboBox comboBoxMasina;
+        private System.Windows.Forms.ComboBox comboBoxCar;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label labelLocation;
+        private System.Windows.Forms.Label labelCompanyName;
+        private System.Windows.Forms.Label labelPrice;
         private System.Windows.Forms.PictureBox pictureBox_car;
         private System.Windows.Forms.PictureBox pictureBox_car1;
         private System.Windows.Forms.PictureBox pictureBox_car2;
         private System.Windows.Forms.PictureBox pictureBox_car3;
         private System.Windows.Forms.PictureBox pictureBoxPhone;
         private System.Windows.Forms.PictureBox pictureBoxEmail;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxCarDescription;
         private System.Windows.Forms.Label labelPhone;
         private System.Windows.Forms.Label labelEmail;
         private System.IO.FileSystemWatcher fileSystemWatcher1;
