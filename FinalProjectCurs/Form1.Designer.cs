@@ -51,17 +51,18 @@ namespace FinalProjectCurs
             this.comboBoxCar = new System.Windows.Forms.ComboBox();
             this.labelLocation = new System.Windows.Forms.Label();
             this.labelCompanyName = new System.Windows.Forms.Label();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.labelEmail = new System.Windows.Forms.Label();
             this.labelPhone = new System.Windows.Forms.Label();
             this.pictureBoxPhone = new System.Windows.Forms.PictureBox();
             this.pictureBoxEmail = new System.Windows.Forms.PictureBox();
-            this.textBoxCarDescription = new System.Windows.Forms.TextBox();
             this.pictureBox_car1 = new System.Windows.Forms.PictureBox();
             this.pictureBox_car2 = new System.Windows.Forms.PictureBox();
             this.pictureBox_car3 = new System.Windows.Forms.PictureBox();
             this.pictureBox_car = new System.Windows.Forms.PictureBox();
             this.labelPrice = new System.Windows.Forms.Label();
             this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -87,13 +88,13 @@ namespace FinalProjectCurs
             this.splitContainer1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
             // 
             this.splitContainer1.Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.splitContainer1.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.splitContainer1.Panel1.Controls.Add(this.button1);
             this.splitContainer1.Panel1.Controls.Add(this.label8);
             this.splitContainer1.Panel1.Controls.Add(this.comboBoxFuel);
             this.splitContainer1.Panel1.Controls.Add(this.panel1);
@@ -110,20 +111,19 @@ namespace FinalProjectCurs
             this.splitContainer1.Panel2.BackColor = System.Drawing.Color.Transparent;
             this.splitContainer1.Panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("splitContainer1.Panel2.BackgroundImage")));
             this.splitContainer1.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.splitContainer1.Panel2.Controls.Add(this.listBox1);
             this.splitContainer1.Panel2.Controls.Add(this.labelEmail);
             this.splitContainer1.Panel2.Controls.Add(this.labelPhone);
             this.splitContainer1.Panel2.Controls.Add(this.pictureBoxPhone);
             this.splitContainer1.Panel2.Controls.Add(this.pictureBoxEmail);
-            this.splitContainer1.Panel2.Controls.Add(this.textBoxCarDescription);
             this.splitContainer1.Panel2.Controls.Add(this.pictureBox_car1);
             this.splitContainer1.Panel2.Controls.Add(this.pictureBox_car2);
             this.splitContainer1.Panel2.Controls.Add(this.pictureBox_car3);
             this.splitContainer1.Panel2.Controls.Add(this.pictureBox_car);
             this.splitContainer1.Panel2.Controls.Add(this.labelPrice);
             this.splitContainer1.Panel2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.splitContainer1.Size = new System.Drawing.Size(1450, 961);
-            this.splitContainer1.SplitterDistance = 483;
-            this.splitContainer1.SplitterWidth = 5;
+            this.splitContainer1.Size = new System.Drawing.Size(1269, 721);
+            this.splitContainer1.SplitterDistance = 422;
             this.splitContainer1.TabIndex = 0;
             // 
             // label8
@@ -131,18 +131,19 @@ namespace FinalProjectCurs
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(115, 650);
+            this.label8.Location = new System.Drawing.Point(101, 488);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(274, 28);
+            this.label8.Size = new System.Drawing.Size(218, 21);
             this.label8.TabIndex = 24;
             this.label8.Text = "Selecteaza Tipul de Carburant:";
             // 
             // comboBoxFuel
             // 
             this.comboBoxFuel.FormattingEnabled = true;
-            this.comboBoxFuel.Location = new System.Drawing.Point(130, 695);
+            this.comboBoxFuel.Location = new System.Drawing.Point(114, 521);
+            this.comboBoxFuel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxFuel.Name = "comboBoxFuel";
-            this.comboBoxFuel.Size = new System.Drawing.Size(228, 28);
+            this.comboBoxFuel.Size = new System.Drawing.Size(200, 23);
             this.comboBoxFuel.TabIndex = 23;
             this.comboBoxFuel.Text = "------------Carburant------------";
             // 
@@ -158,18 +159,19 @@ namespace FinalProjectCurs
             this.panel1.Controls.Add(this.pictureBox4);
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Location = new System.Drawing.Point(25, 169);
+            this.panel1.Location = new System.Drawing.Point(22, 127);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(444, 286);
+            this.panel1.Size = new System.Drawing.Size(388, 214);
             this.panel1.TabIndex = 22;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(76, 236);
+            this.label7.Location = new System.Drawing.Point(66, 177);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(204, 20);
+            this.label7.Size = new System.Drawing.Size(160, 15);
             this.label7.TabIndex = 9;
             this.label7.Text = "Anularea gratuita a rezervarii.";
             // 
@@ -177,9 +179,9 @@ namespace FinalProjectCurs
             // 
             this.label6.AutoSize = true;
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(76, 180);
+            this.label6.Location = new System.Drawing.Point(66, 135);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(276, 20);
+            this.label6.Size = new System.Drawing.Size(216, 15);
             this.label6.TabIndex = 8;
             this.label6.Text = "Predare si preluare Gratuita la orice ora .";
             // 
@@ -187,9 +189,9 @@ namespace FinalProjectCurs
             // 
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(76, 127);
+            this.label4.Location = new System.Drawing.Point(66, 95);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(341, 20);
+            this.label4.Size = new System.Drawing.Size(274, 15);
             this.label4.TabIndex = 7;
             this.label4.Text = "Pretul include TVA, RCA, Casco, Anvelope de iarna.";
             // 
@@ -197,9 +199,9 @@ namespace FinalProjectCurs
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(76, 80);
+            this.label3.Location = new System.Drawing.Point(66, 60);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(161, 20);
+            this.label3.Size = new System.Drawing.Size(127, 15);
             this.label3.TabIndex = 6;
             this.label3.Text = "Fara avans la rezervare.";
             // 
@@ -207,18 +209,19 @@ namespace FinalProjectCurs
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(76, 28);
+            this.label2.Location = new System.Drawing.Point(66, 21);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(277, 20);
+            this.label2.Size = new System.Drawing.Size(221, 15);
             this.label2.TabIndex = 5;
             this.label2.Text = "Pret afisat = Pret final. Fara taxe ascunse!";
             // 
             // pictureBox6
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(13, 224);
+            this.pictureBox6.Location = new System.Drawing.Point(11, 168);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(45, 47);
+            this.pictureBox6.Size = new System.Drawing.Size(39, 35);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 4;
             this.pictureBox6.TabStop = false;
@@ -226,9 +229,10 @@ namespace FinalProjectCurs
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(13, 171);
+            this.pictureBox5.Location = new System.Drawing.Point(11, 128);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(42, 47);
+            this.pictureBox5.Size = new System.Drawing.Size(37, 35);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 3;
             this.pictureBox5.TabStop = false;
@@ -236,9 +240,10 @@ namespace FinalProjectCurs
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(13, 118);
+            this.pictureBox4.Location = new System.Drawing.Point(11, 88);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(42, 47);
+            this.pictureBox4.Size = new System.Drawing.Size(37, 35);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 2;
             this.pictureBox4.TabStop = false;
@@ -246,9 +251,10 @@ namespace FinalProjectCurs
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(13, 65);
+            this.pictureBox3.Location = new System.Drawing.Point(11, 49);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(42, 47);
+            this.pictureBox3.Size = new System.Drawing.Size(37, 35);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 1;
             this.pictureBox3.TabStop = false;
@@ -256,9 +262,10 @@ namespace FinalProjectCurs
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(13, 19);
+            this.pictureBox2.Location = new System.Drawing.Point(11, 14);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(42, 40);
+            this.pictureBox2.Size = new System.Drawing.Size(37, 30);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
@@ -267,28 +274,28 @@ namespace FinalProjectCurs
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(25, 130);
+            this.label1.Location = new System.Drawing.Point(22, 98);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(145, 23);
+            this.label1.Size = new System.Drawing.Size(118, 19);
             this.label1.TabIndex = 21;
             this.label1.Text = "de ce sa ne alegi?";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(10, 9);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(127, 65);
+            this.pictureBox1.Size = new System.Drawing.Size(111, 49);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 20;
             this.pictureBox1.TabStop = false;
             // 
             // buttonRezervaAcum
             // 
-            this.buttonRezervaAcum.Location = new System.Drawing.Point(149, 856);
-            this.buttonRezervaAcum.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.buttonRezervaAcum.Location = new System.Drawing.Point(130, 642);
             this.buttonRezervaAcum.Name = "buttonRezervaAcum";
-            this.buttonRezervaAcum.Size = new System.Drawing.Size(179, 45);
+            this.buttonRezervaAcum.Size = new System.Drawing.Size(157, 34);
             this.buttonRezervaAcum.TabIndex = 19;
             this.buttonRezervaAcum.Text = "Rezerva acum";
             this.buttonRezervaAcum.UseVisualStyleBackColor = true;
@@ -299,19 +306,18 @@ namespace FinalProjectCurs
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(149, 775);
+            this.label5.Location = new System.Drawing.Point(130, 581);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(174, 28);
+            this.label5.Size = new System.Drawing.Size(139, 21);
             this.label5.TabIndex = 18;
             this.label5.Text = "Selecteaza Masina:";
             // 
             // comboBoxCar
             // 
             this.comboBoxCar.FormattingEnabled = true;
-            this.comboBoxCar.Location = new System.Drawing.Point(130, 807);
-            this.comboBoxCar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.comboBoxCar.Location = new System.Drawing.Point(114, 605);
             this.comboBoxCar.Name = "comboBoxCar";
-            this.comboBoxCar.Size = new System.Drawing.Size(228, 28);
+            this.comboBoxCar.Size = new System.Drawing.Size(200, 23);
             this.comboBoxCar.TabIndex = 15;
             this.comboBoxCar.Text = "----------Alegeti o masina----------";
             this.comboBoxCar.SelectedIndexChanged += new System.EventHandler(this.comboBoxCar_SelectedIndexChanged);
@@ -321,9 +327,9 @@ namespace FinalProjectCurs
             this.labelLocation.AutoSize = true;
             this.labelLocation.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelLocation.ForeColor = System.Drawing.Color.DarkRed;
-            this.labelLocation.Location = new System.Drawing.Point(64, 743);
+            this.labelLocation.Location = new System.Drawing.Point(56, 557);
             this.labelLocation.Name = "labelLocation";
-            this.labelLocation.Size = new System.Drawing.Size(362, 32);
+            this.labelLocation.Size = new System.Drawing.Size(283, 25);
             this.labelLocation.TabIndex = 12;
             this.labelLocation.Text = "Locatie: Aeroport Cluj-Napoca";
             // 
@@ -332,20 +338,29 @@ namespace FinalProjectCurs
             this.labelCompanyName.AutoSize = true;
             this.labelCompanyName.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelCompanyName.ForeColor = System.Drawing.Color.DarkRed;
-            this.labelCompanyName.Location = new System.Drawing.Point(12, 80);
+            this.labelCompanyName.Location = new System.Drawing.Point(10, 60);
             this.labelCompanyName.Name = "labelCompanyName";
-            this.labelCompanyName.Size = new System.Drawing.Size(205, 50);
+            this.labelCompanyName.Size = new System.Drawing.Size(167, 41);
             this.labelCompanyName.TabIndex = 11;
             this.labelCompanyName.Text = "Rent A Car";
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 21;
+            this.listBox1.Location = new System.Drawing.Point(160, 577);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(383, 109);
+            this.listBox1.TabIndex = 22;
             // 
             // labelEmail
             // 
             this.labelEmail.AutoSize = true;
             this.labelEmail.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelEmail.ForeColor = System.Drawing.Color.DarkRed;
-            this.labelEmail.Location = new System.Drawing.Point(759, 901);
+            this.labelEmail.Location = new System.Drawing.Point(664, 676);
             this.labelEmail.Name = "labelEmail";
-            this.labelEmail.Size = new System.Drawing.Size(208, 28);
+            this.labelEmail.Size = new System.Drawing.Size(169, 21);
             this.labelEmail.TabIndex = 21;
             this.labelEmail.Text = "rentacar@gmail.com";
             // 
@@ -354,19 +369,18 @@ namespace FinalProjectCurs
             this.labelPhone.AutoSize = true;
             this.labelPhone.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelPhone.ForeColor = System.Drawing.Color.DarkRed;
-            this.labelPhone.Location = new System.Drawing.Point(761, 856);
+            this.labelPhone.Location = new System.Drawing.Point(666, 642);
             this.labelPhone.Name = "labelPhone";
-            this.labelPhone.Size = new System.Drawing.Size(144, 28);
+            this.labelPhone.Size = new System.Drawing.Size(108, 21);
             this.labelPhone.TabIndex = 20;
             this.labelPhone.Text = "0745 999 999";
             // 
             // pictureBoxPhone
             // 
             this.pictureBoxPhone.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxPhone.Image")));
-            this.pictureBoxPhone.Location = new System.Drawing.Point(718, 852);
-            this.pictureBoxPhone.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBoxPhone.Location = new System.Drawing.Point(628, 639);
             this.pictureBoxPhone.Name = "pictureBoxPhone";
-            this.pictureBoxPhone.Size = new System.Drawing.Size(37, 32);
+            this.pictureBoxPhone.Size = new System.Drawing.Size(32, 24);
             this.pictureBoxPhone.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxPhone.TabIndex = 19;
             this.pictureBoxPhone.TabStop = false;
@@ -374,29 +388,18 @@ namespace FinalProjectCurs
             // pictureBoxEmail
             // 
             this.pictureBoxEmail.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxEmail.Image")));
-            this.pictureBoxEmail.Location = new System.Drawing.Point(718, 892);
-            this.pictureBoxEmail.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBoxEmail.Location = new System.Drawing.Point(628, 669);
             this.pictureBoxEmail.Name = "pictureBoxEmail";
-            this.pictureBoxEmail.Size = new System.Drawing.Size(37, 37);
+            this.pictureBoxEmail.Size = new System.Drawing.Size(32, 28);
             this.pictureBoxEmail.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxEmail.TabIndex = 18;
             this.pictureBoxEmail.TabStop = false;
             // 
-            // textBoxCarDescription
-            // 
-            this.textBoxCarDescription.Location = new System.Drawing.Point(183, 772);
-            this.textBoxCarDescription.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBoxCarDescription.Multiline = true;
-            this.textBoxCarDescription.Name = "textBoxCarDescription";
-            this.textBoxCarDescription.Size = new System.Drawing.Size(437, 156);
-            this.textBoxCarDescription.TabIndex = 17;
-            // 
             // pictureBox_car1
             // 
-            this.pictureBox_car1.Location = new System.Drawing.Point(302, 103);
-            this.pictureBox_car1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox_car1.Location = new System.Drawing.Point(264, 77);
             this.pictureBox_car1.Name = "pictureBox_car1";
-            this.pictureBox_car1.Size = new System.Drawing.Size(89, 59);
+            this.pictureBox_car1.Size = new System.Drawing.Size(78, 44);
             this.pictureBox_car1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox_car1.TabIndex = 16;
             this.pictureBox_car1.TabStop = false;
@@ -404,10 +407,9 @@ namespace FinalProjectCurs
             // 
             // pictureBox_car2
             // 
-            this.pictureBox_car2.Location = new System.Drawing.Point(398, 103);
-            this.pictureBox_car2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox_car2.Location = new System.Drawing.Point(348, 77);
             this.pictureBox_car2.Name = "pictureBox_car2";
-            this.pictureBox_car2.Size = new System.Drawing.Size(89, 59);
+            this.pictureBox_car2.Size = new System.Drawing.Size(78, 44);
             this.pictureBox_car2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox_car2.TabIndex = 15;
             this.pictureBox_car2.TabStop = false;
@@ -415,10 +417,9 @@ namespace FinalProjectCurs
             // 
             // pictureBox_car3
             // 
-            this.pictureBox_car3.Location = new System.Drawing.Point(494, 103);
-            this.pictureBox_car3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox_car3.Location = new System.Drawing.Point(432, 77);
             this.pictureBox_car3.Name = "pictureBox_car3";
-            this.pictureBox_car3.Size = new System.Drawing.Size(89, 59);
+            this.pictureBox_car3.Size = new System.Drawing.Size(78, 44);
             this.pictureBox_car3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox_car3.TabIndex = 14;
             this.pictureBox_car3.TabStop = false;
@@ -427,10 +428,9 @@ namespace FinalProjectCurs
             // pictureBox_car
             // 
             this.pictureBox_car.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox_car.Location = new System.Drawing.Point(43, 211);
-            this.pictureBox_car.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox_car.Location = new System.Drawing.Point(38, 158);
             this.pictureBox_car.Name = "pictureBox_car";
-            this.pictureBox_car.Size = new System.Drawing.Size(873, 539);
+            this.pictureBox_car.Size = new System.Drawing.Size(764, 404);
             this.pictureBox_car.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox_car.TabIndex = 13;
             this.pictureBox_car.TabStop = false;
@@ -440,9 +440,9 @@ namespace FinalProjectCurs
             this.labelPrice.AutoSize = true;
             this.labelPrice.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelPrice.ForeColor = System.Drawing.Color.DarkRed;
-            this.labelPrice.Location = new System.Drawing.Point(43, 815);
+            this.labelPrice.Location = new System.Drawing.Point(38, 611);
             this.labelPrice.Name = "labelPrice";
-            this.labelPrice.Size = new System.Drawing.Size(145, 67);
+            this.labelPrice.Size = new System.Drawing.Size(116, 54);
             this.labelPrice.TabIndex = 12;
             this.labelPrice.Text = "Price";
             // 
@@ -451,16 +451,26 @@ namespace FinalProjectCurs
             this.fileSystemWatcher1.EnableRaisingEvents = true;
             this.fileSystemWatcher1.SynchronizingObject = this;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(23, 346);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(117, 32);
+            this.button1.TabIndex = 25;
+            this.button1.Text = "Istoric Clienti";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(1450, 961);
+            this.ClientSize = new System.Drawing.Size(1269, 721);
             this.Controls.Add(this.splitContainer1);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();
@@ -502,7 +512,6 @@ namespace FinalProjectCurs
         private System.Windows.Forms.PictureBox pictureBox_car3;
         private System.Windows.Forms.PictureBox pictureBoxPhone;
         private System.Windows.Forms.PictureBox pictureBoxEmail;
-        private System.Windows.Forms.TextBox textBoxCarDescription;
         private System.Windows.Forms.Label labelPhone;
         private System.Windows.Forms.Label labelEmail;
         private System.IO.FileSystemWatcher fileSystemWatcher1;
@@ -521,6 +530,8 @@ namespace FinalProjectCurs
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.ComboBox comboBoxFuel;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Button button1;
     }
 }
 

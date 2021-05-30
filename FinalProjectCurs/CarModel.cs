@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FinalProjectCurs
 {
-    public enum CarModelEnum
+    public enum CarModel
     {
         [Description("Audi A3")]
         AudiA3,

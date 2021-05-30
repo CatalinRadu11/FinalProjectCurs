@@ -16,8 +16,8 @@ namespace FinalProjectCurs
         public Form2()
         {
             InitializeComponent();
+            pictureBoxCarForm2.Image = Form1.carBoxImg;
         }
-
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
             DateTime inTime = Convert.ToDateTime(dateTimePicker1.Text);
@@ -25,7 +25,7 @@ namespace FinalProjectCurs
 
             if (outTime >=inTime)
             {
-                textBoxSumarRezervare.Text = outTime.Subtract(inTime).Days.ToString();
+                listBoxTrimiteRezervarea.Items.Add(outTime.Subtract(inTime).Days.ToString()); //= outTime.Subtract(inTime).Days.ToString();
             }
         }
 
@@ -36,18 +36,30 @@ namespace FinalProjectCurs
 
             if (outTime >= inTime)
             {
-                textBoxSumarRezervare.Text = outTime.Subtract(inTime).Days.ToString();
+                listBoxTrimiteRezervarea.Items.Add(outTime.Subtract(inTime).Days.ToString()); //= outTime.Subtract(inTime).Days.ToString();
             }
         }
 
         private void checkBoxPlataCash_CheckedChanged(object sender, EventArgs e)
         {
-            textBoxSumarRezervare.Text = "Plata Cash";
+            listBoxTrimiteRezervarea.Items.Add("Plata Cash");
         }
 
         private void checkBoxPlataLivrare_CheckedChanged(object sender, EventArgs e)
         {
-            textBoxSumarRezervare.Text = "Plata Card";
+            listBoxTrimiteRezervarea.Items.Add("Plata Card");
+        }
+
+        private void buttonTrimiteRezervarea_Click(object sender, EventArgs e)
+        {
+            //this.Hide();
+            Form3 f3 = new Form3(); //this is the change, code for redirect
+            Form3.dataGridView1.Rows[Form3.dataGridView1.Rows.Count - 1].Cells[0].Value = textBoxNume.Text;
+            //Form3.dataGridView1.Rows[Form3.dataGridView1.Rows.Count-1].Cells[1].Value = textBoxNume.Text;
+            Form3.dataGridView1.Rows[Form3.dataGridView1.Rows.Count - 1].Cells[2].Value = dateTimePicker2.Value;
+            Form3.dataGridView1.Rows[Form3.dataGridView1.Rows.Count - 1].Cells[3].Value = dateTimePicker2.Value;
+            MessageBox.Show("Comanda dumneavoastra a fost preluata!");
+            f3.ShowDialog();
         }
     }
 }

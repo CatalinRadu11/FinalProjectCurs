@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace FinalProjectCurs
 {
-    public enum CarEnum
-    {   AudiA3,
-        VolkswagenTiguan,
-        BMWI8,
-        HyundaiTucson,
-        LamborghiniAventador,
-        RenaulClio
+    public enum FuelType
+    {
+        Benzina,
+        Diesel,
+        Electric,
+        Hybrid
     }
 }
