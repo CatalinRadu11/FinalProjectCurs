@@ -31,6 +31,7 @@ namespace FinalProjectCurs
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.button1 = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.comboBoxFuel = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -62,7 +63,6 @@ namespace FinalProjectCurs
             this.pictureBox_car = new System.Windows.Forms.PictureBox();
             this.labelPrice = new System.Windows.Forms.Label();
             this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
-            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -126,6 +126,16 @@ namespace FinalProjectCurs
             this.splitContainer1.SplitterDistance = 422;
             this.splitContainer1.TabIndex = 0;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(23, 346);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(117, 32);
+            this.button1.TabIndex = 25;
+            this.button1.Text = "Istoric Clienti";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -146,6 +156,7 @@ namespace FinalProjectCurs
             this.comboBoxFuel.Size = new System.Drawing.Size(200, 23);
             this.comboBoxFuel.TabIndex = 23;
             this.comboBoxFuel.Text = "------------Carburant------------";
+            this.comboBoxFuel.SelectedIndexChanged += new System.EventHandler(this.comboBoxFuel_SelectedIndexChanged);
             // 
             // panel1
             // 
@@ -346,11 +357,12 @@ namespace FinalProjectCurs
             // 
             // listBox1
             // 
+            this.listBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 21;
             this.listBox1.Location = new System.Drawing.Point(160, 577);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(383, 109);
+            this.listBox1.Size = new System.Drawing.Size(248, 109);
             this.listBox1.TabIndex = 22;
             // 
             // labelEmail
@@ -450,16 +462,6 @@ namespace FinalProjectCurs
             // 
             this.fileSystemWatcher1.EnableRaisingEvents = true;
             this.fileSystemWatcher1.SynchronizingObject = this;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(23, 346);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(117, 32);
-            this.button1.TabIndex = 25;
-            this.button1.Text = "Istoric Clienti";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 

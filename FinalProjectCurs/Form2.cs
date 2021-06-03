@@ -61,5 +61,7 @@ namespace FinalProjectCurs
             MessageBox.Show("Comanda dumneavoastra a fost preluata!");
             f3.ShowDialog();
         }
+
+
     }
 }

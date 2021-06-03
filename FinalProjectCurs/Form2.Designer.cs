@@ -29,6 +29,7 @@ namespace FinalProjectCurs
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.pictureBoxCarForm2 = new System.Windows.Forms.PictureBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
@@ -63,12 +64,15 @@ namespace FinalProjectCurs
             this.checkBoxTermeniCond = new System.Windows.Forms.CheckBox();
             this.labelTermeniCond = new System.Windows.Forms.Label();
             this.listBoxTrimiteRezervarea = new System.Windows.Forms.ListBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCarForm2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBoxCarForm2
             // 
-            this.pictureBoxCarForm2.Location = new System.Drawing.Point(67, 45);
+            this.pictureBoxCarForm2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxCarForm2.Location = new System.Drawing.Point(64, 79);
             this.pictureBoxCarForm2.Name = "pictureBoxCarForm2";
             this.pictureBoxCarForm2.Size = new System.Drawing.Size(596, 276);
             this.pictureBoxCarForm2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -94,8 +98,9 @@ namespace FinalProjectCurs
             // labelDataPreluarii
             // 
             this.labelDataPreluarii.AutoSize = true;
+            this.labelDataPreluarii.BackColor = System.Drawing.Color.Transparent;
             this.labelDataPreluarii.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelDataPreluarii.ForeColor = System.Drawing.Color.Black;
+            this.labelDataPreluarii.ForeColor = System.Drawing.Color.LightGray;
             this.labelDataPreluarii.Location = new System.Drawing.Point(719, 82);
             this.labelDataPreluarii.Name = "labelDataPreluarii";
             this.labelDataPreluarii.Size = new System.Drawing.Size(107, 21);
@@ -105,8 +110,9 @@ namespace FinalProjectCurs
             // labelDataPredarii
             // 
             this.labelDataPredarii.AutoSize = true;
+            this.labelDataPredarii.BackColor = System.Drawing.Color.Transparent;
             this.labelDataPredarii.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelDataPredarii.ForeColor = System.Drawing.Color.Black;
+            this.labelDataPredarii.ForeColor = System.Drawing.Color.LightGray;
             this.labelDataPredarii.Location = new System.Drawing.Point(719, 177);
             this.labelDataPredarii.Name = "labelDataPredarii";
             this.labelDataPredarii.Size = new System.Drawing.Size(103, 21);
@@ -116,8 +122,9 @@ namespace FinalProjectCurs
             // labelAlegeDatele
             // 
             this.labelAlegeDatele.AutoSize = true;
+            this.labelAlegeDatele.BackColor = System.Drawing.Color.Transparent;
             this.labelAlegeDatele.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelAlegeDatele.ForeColor = System.Drawing.Color.Black;
+            this.labelAlegeDatele.ForeColor = System.Drawing.Color.DarkRed;
             this.labelAlegeDatele.Location = new System.Drawing.Point(719, 9);
             this.labelAlegeDatele.Name = "labelAlegeDatele";
             this.labelAlegeDatele.Size = new System.Drawing.Size(146, 25);
@@ -127,8 +134,9 @@ namespace FinalProjectCurs
             // labelDatePersonale
             // 
             this.labelDatePersonale.AutoSize = true;
+            this.labelDatePersonale.BackColor = System.Drawing.Color.Transparent;
             this.labelDatePersonale.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelDatePersonale.ForeColor = System.Drawing.Color.Black;
+            this.labelDatePersonale.ForeColor = System.Drawing.Color.DarkRed;
             this.labelDatePersonale.Location = new System.Drawing.Point(719, 279);
             this.labelDatePersonale.Name = "labelDatePersonale";
             this.labelDatePersonale.Size = new System.Drawing.Size(176, 25);
@@ -138,8 +146,9 @@ namespace FinalProjectCurs
             // labelNume
             // 
             this.labelNume.AutoSize = true;
+            this.labelNume.BackColor = System.Drawing.Color.Transparent;
             this.labelNume.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelNume.ForeColor = System.Drawing.Color.Black;
+            this.labelNume.ForeColor = System.Drawing.Color.LightGray;
             this.labelNume.Location = new System.Drawing.Point(719, 334);
             this.labelNume.Name = "labelNume";
             this.labelNume.Size = new System.Drawing.Size(56, 21);
@@ -149,8 +158,9 @@ namespace FinalProjectCurs
             // labelEmail
             // 
             this.labelEmail.AutoSize = true;
+            this.labelEmail.BackColor = System.Drawing.Color.Transparent;
             this.labelEmail.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelEmail.ForeColor = System.Drawing.Color.Black;
+            this.labelEmail.ForeColor = System.Drawing.Color.LightGray;
             this.labelEmail.Location = new System.Drawing.Point(719, 401);
             this.labelEmail.Name = "labelEmail";
             this.labelEmail.Size = new System.Drawing.Size(51, 21);
@@ -160,8 +170,9 @@ namespace FinalProjectCurs
             // labelTelefon
             // 
             this.labelTelefon.AutoSize = true;
+            this.labelTelefon.BackColor = System.Drawing.Color.Transparent;
             this.labelTelefon.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelTelefon.ForeColor = System.Drawing.Color.Black;
+            this.labelTelefon.ForeColor = System.Drawing.Color.LightGray;
             this.labelTelefon.Location = new System.Drawing.Point(719, 474);
             this.labelTelefon.Name = "labelTelefon";
             this.labelTelefon.Size = new System.Drawing.Size(62, 21);
@@ -200,6 +211,7 @@ namespace FinalProjectCurs
             // 
             // textBoxMesaj
             // 
+            this.textBoxMesaj.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.textBoxMesaj.Location = new System.Drawing.Point(992, 358);
             this.textBoxMesaj.Multiline = true;
             this.textBoxMesaj.Name = "textBoxMesaj";
@@ -209,8 +221,9 @@ namespace FinalProjectCurs
             // labelMesaj
             // 
             this.labelMesaj.AutoSize = true;
+            this.labelMesaj.BackColor = System.Drawing.Color.Transparent;
             this.labelMesaj.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelMesaj.ForeColor = System.Drawing.Color.Black;
+            this.labelMesaj.ForeColor = System.Drawing.Color.LightGray;
             this.labelMesaj.Location = new System.Drawing.Point(992, 334);
             this.labelMesaj.Name = "labelMesaj";
             this.labelMesaj.Size = new System.Drawing.Size(54, 21);
@@ -220,8 +233,9 @@ namespace FinalProjectCurs
             // labelSumarRezervare
             // 
             this.labelSumarRezervare.AutoSize = true;
+            this.labelSumarRezervare.BackColor = System.Drawing.Color.Transparent;
             this.labelSumarRezervare.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelSumarRezervare.ForeColor = System.Drawing.Color.Black;
+            this.labelSumarRezervare.ForeColor = System.Drawing.Color.DarkRed;
             this.labelSumarRezervare.Location = new System.Drawing.Point(250, 490);
             this.labelSumarRezervare.Name = "labelSumarRezervare";
             this.labelSumarRezervare.Size = new System.Drawing.Size(168, 25);
@@ -343,8 +357,9 @@ namespace FinalProjectCurs
             // labelOraPreluare
             // 
             this.labelOraPreluare.AutoSize = true;
+            this.labelOraPreluare.BackColor = System.Drawing.Color.Transparent;
             this.labelOraPreluare.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelOraPreluare.ForeColor = System.Drawing.Color.Black;
+            this.labelOraPreluare.ForeColor = System.Drawing.Color.LightGray;
             this.labelOraPreluare.Location = new System.Drawing.Point(1019, 82);
             this.labelOraPreluare.Name = "labelOraPreluare";
             this.labelOraPreluare.Size = new System.Drawing.Size(39, 21);
@@ -354,8 +369,9 @@ namespace FinalProjectCurs
             // labelMinutePreluare
             // 
             this.labelMinutePreluare.AutoSize = true;
+            this.labelMinutePreluare.BackColor = System.Drawing.Color.Transparent;
             this.labelMinutePreluare.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelMinutePreluare.ForeColor = System.Drawing.Color.Black;
+            this.labelMinutePreluare.ForeColor = System.Drawing.Color.LightGray;
             this.labelMinutePreluare.Location = new System.Drawing.Point(1152, 82);
             this.labelMinutePreluare.Name = "labelMinutePreluare";
             this.labelMinutePreluare.Size = new System.Drawing.Size(62, 21);
@@ -365,8 +381,9 @@ namespace FinalProjectCurs
             // labelOraPredare
             // 
             this.labelOraPredare.AutoSize = true;
+            this.labelOraPredare.BackColor = System.Drawing.Color.Transparent;
             this.labelOraPredare.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelOraPredare.ForeColor = System.Drawing.Color.Black;
+            this.labelOraPredare.ForeColor = System.Drawing.Color.LightGray;
             this.labelOraPredare.Location = new System.Drawing.Point(1019, 180);
             this.labelOraPredare.Name = "labelOraPredare";
             this.labelOraPredare.Size = new System.Drawing.Size(39, 21);
@@ -376,8 +393,9 @@ namespace FinalProjectCurs
             // labelMinutePredare
             // 
             this.labelMinutePredare.AutoSize = true;
+            this.labelMinutePredare.BackColor = System.Drawing.Color.Transparent;
             this.labelMinutePredare.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelMinutePredare.ForeColor = System.Drawing.Color.Black;
+            this.labelMinutePredare.ForeColor = System.Drawing.Color.LightGray;
             this.labelMinutePredare.Location = new System.Drawing.Point(1153, 180);
             this.labelMinutePredare.Name = "labelMinutePredare";
             this.labelMinutePredare.Size = new System.Drawing.Size(62, 21);
@@ -489,8 +507,9 @@ namespace FinalProjectCurs
             // labelPlata
             // 
             this.labelPlata.AutoSize = true;
+            this.labelPlata.BackColor = System.Drawing.Color.Transparent;
             this.labelPlata.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelPlata.ForeColor = System.Drawing.Color.Black;
+            this.labelPlata.ForeColor = System.Drawing.Color.DarkRed;
             this.labelPlata.Location = new System.Drawing.Point(729, 558);
             this.labelPlata.Name = "labelPlata";
             this.labelPlata.Size = new System.Drawing.Size(69, 25);
@@ -500,8 +519,9 @@ namespace FinalProjectCurs
             // labelPlataCash
             // 
             this.labelPlataCash.AutoSize = true;
+            this.labelPlataCash.BackColor = System.Drawing.Color.Transparent;
             this.labelPlataCash.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelPlataCash.ForeColor = System.Drawing.Color.Black;
+            this.labelPlataCash.ForeColor = System.Drawing.Color.Silver;
             this.labelPlataCash.Location = new System.Drawing.Point(754, 581);
             this.labelPlataCash.Name = "labelPlataCash";
             this.labelPlataCash.Size = new System.Drawing.Size(215, 21);
@@ -521,8 +541,9 @@ namespace FinalProjectCurs
             // labelPlataLivrare
             // 
             this.labelPlataLivrare.AutoSize = true;
+            this.labelPlataLivrare.BackColor = System.Drawing.Color.Transparent;
             this.labelPlataLivrare.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelPlataLivrare.ForeColor = System.Drawing.Color.Black;
+            this.labelPlataLivrare.ForeColor = System.Drawing.Color.Silver;
             this.labelPlataLivrare.Location = new System.Drawing.Point(754, 606);
             this.labelPlataLivrare.Name = "labelPlataLivrare";
             this.labelPlataLivrare.Size = new System.Drawing.Size(178, 21);
@@ -551,8 +572,9 @@ namespace FinalProjectCurs
             // labelTermeniCond
             // 
             this.labelTermeniCond.AutoSize = true;
+            this.labelTermeniCond.BackColor = System.Drawing.Color.Transparent;
             this.labelTermeniCond.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelTermeniCond.ForeColor = System.Drawing.Color.Black;
+            this.labelTermeniCond.ForeColor = System.Drawing.Color.Silver;
             this.labelTermeniCond.Location = new System.Drawing.Point(738, 654);
             this.labelTermeniCond.Name = "labelTermeniCond";
             this.labelTermeniCond.Size = new System.Drawing.Size(280, 21);
@@ -561,6 +583,7 @@ namespace FinalProjectCurs
             // 
             // listBoxTrimiteRezervarea
             // 
+            this.listBoxTrimiteRezervarea.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.listBoxTrimiteRezervarea.FormattingEnabled = true;
             this.listBoxTrimiteRezervarea.HorizontalScrollbar = true;
             this.listBoxTrimiteRezervarea.ItemHeight = 15;
@@ -569,11 +592,25 @@ namespace FinalProjectCurs
             this.listBoxTrimiteRezervarea.Size = new System.Drawing.Size(260, 109);
             this.listBoxTrimiteRezervarea.TabIndex = 54;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 55;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1240, 679);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.listBoxTrimiteRezervarea);
             this.Controls.Add(this.labelTermeniCond);
             this.Controls.Add(this.checkBoxTermeniCond);
@@ -612,6 +649,7 @@ namespace FinalProjectCurs
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCarForm2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -652,5 +690,6 @@ namespace FinalProjectCurs
         private System.Windows.Forms.CheckBox checkBoxTermeniCond;
         private System.Windows.Forms.Label labelTermeniCond;
         private System.Windows.Forms.ListBox listBoxTrimiteRezervarea;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
