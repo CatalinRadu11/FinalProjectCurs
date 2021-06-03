@@ -183,7 +183,7 @@ namespace FinalProjectCurs
                 for (int i = 0; i < filteredList.Count; i++)
                 {
                     Car car = filteredList.ElementAt(i);
-                    comboBoxCar.Items.Add(car.Model.ToString());
+                    comboBoxCar.Items.Add(((CarModel)car.Model).Description());
                 }
             }
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AE\\Desktop\\project bun duplicat\\FinalProjectCurs\\FinalProjectCurs\\FinalProjectCurs.csproj": {}
+    "C:\\Users\\AE\\Source\\Repos\\FinalProjectCurs\\FinalProjectCurs\\FinalProjectCurs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AE\\Desktop\\project bun duplicat\\FinalProjectCurs\\FinalProjectCurs\\FinalProjectCurs.csproj": {
+    "C:\\Users\\AE\\Source\\Repos\\FinalProjectCurs\\FinalProjectCurs\\FinalProjectCurs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AE\\Desktop\\project bun duplicat\\FinalProjectCurs\\FinalProjectCurs\\FinalProjectCurs.csproj",
+        "projectUniqueName": "C:\\Users\\AE\\Source\\Repos\\FinalProjectCurs\\FinalProjectCurs\\FinalProjectCurs.csproj",
         "projectName": "FinalProjectCurs",
-        "projectPath": "C:\\Users\\AE\\Desktop\\project bun duplicat\\FinalProjectCurs\\FinalProjectCurs\\FinalProjectCurs.csproj",
+        "projectPath": "C:\\Users\\AE\\Source\\Repos\\FinalProjectCurs\\FinalProjectCurs\\FinalProjectCurs.csproj",
         "packagesPath": "C:\\Users\\AE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AE\\Desktop\\project bun duplicat\\FinalProjectCurs\\FinalProjectCurs\\obj\\",
+        "outputPath": "C:\\Users\\AE\\Source\\Repos\\FinalProjectCurs\\FinalProjectCurs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AE\\AppData\\Roaming\\NuGet\\NuGet.Config",
