@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FinalProjectCurs
 {
-    public enum CarModelEnum
+    public enum CarModel
     {
         [Description("Audi A3")]
         AudiA3,
@@ -19,7 +19,7 @@ namespace FinalProjectCurs
         HyundaiTucson,
         [Description("Lamborghini Aventador")]
         LamborghiniAventador,
-        [Description("Renault Clio")]
-        RenaultClio
+        [Description("Toyota Auris")]
+        ToyotaAuris
     }
 }

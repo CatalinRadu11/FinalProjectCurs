@@ -8,17 +8,24 @@ namespace FinalProjectCurs
 {
     public class Car
     {
-        public string Model { get; set; }
-        public int Year { get; set; }
-        public string Fuel { get; set; }
-        public int Price { get; set; }
+        public FuelType Fuel { get; set; }
+        public CarModel Model { get; set; }
 
-        public Car(string model, int year, string fuel, int price)
+        public int MakeYear { get; set; }
+        public int Price { get; set; }
+        public string Colour { get; set; }
+        public string Transmission { get; set; }
+       
+
+        public Car (CarModel model, int makeyear, int price, string colour, string transmission,FuelType fuel)
         {
             this.Model = model;
-            this.Year = year;
-            this.Fuel = fuel;
+            this.MakeYear = makeyear;
             this.Price = price;
+            this.Colour = colour;
+            this.Transmission = transmission;
+            this.Fuel = fuel;
+
         }
     }
 }
