@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace FinalProjectCurs
 {
+
+    [Serializable]
     public class Car
     {
         public FuelType Fuel { get; set; }
@@ -15,9 +17,9 @@ namespace FinalProjectCurs
         public int Price { get; set; }
         public string Colour { get; set; }
         public string Transmission { get; set; }
-       
 
-        public Car (CarModel model, int makeyear, int price, string colour, string transmission,FuelType fuel)
+
+        public Car(CarModel model, int makeyear, int price, string colour, string transmission, FuelType fuel)
         {
             this.Model = model;
             this.MakeYear = makeyear;

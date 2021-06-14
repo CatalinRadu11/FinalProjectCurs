@@ -62,9 +62,9 @@ namespace FinalProjectCurs
             this.labelPlataLivrare = new System.Windows.Forms.Label();
             this.checkBoxPlataLivrare = new System.Windows.Forms.CheckBox();
             this.checkBoxTermeniCond = new System.Windows.Forms.CheckBox();
-            this.labelTermeniCond = new System.Windows.Forms.Label();
             this.listBoxTrimiteRezervarea = new System.Windows.Forms.ListBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCarForm2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -569,18 +569,6 @@ namespace FinalProjectCurs
             this.checkBoxTermeniCond.TabIndex = 52;
             this.checkBoxTermeniCond.UseVisualStyleBackColor = true;
             // 
-            // labelTermeniCond
-            // 
-            this.labelTermeniCond.AutoSize = true;
-            this.labelTermeniCond.BackColor = System.Drawing.Color.Transparent;
-            this.labelTermeniCond.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelTermeniCond.ForeColor = System.Drawing.Color.Silver;
-            this.labelTermeniCond.Location = new System.Drawing.Point(738, 654);
-            this.labelTermeniCond.Name = "labelTermeniCond";
-            this.labelTermeniCond.Size = new System.Drawing.Size(280, 21);
-            this.labelTermeniCond.TabIndex = 53;
-            this.labelTermeniCond.Text = "Sunt de accord cu termenii si conditiile.";
-            // 
             // listBoxTrimiteRezervarea
             // 
             this.listBoxTrimiteRezervarea.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -603,6 +591,17 @@ namespace FinalProjectCurs
             this.pictureBox1.TabIndex = 55;
             this.pictureBox1.TabStop = false;
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(738, 660);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(206, 15);
+            this.linkLabel1.TabIndex = 56;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Sunt de acord cu termenii si conditiile";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -610,9 +609,9 @@ namespace FinalProjectCurs
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1240, 679);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.listBoxTrimiteRezervarea);
-            this.Controls.Add(this.labelTermeniCond);
             this.Controls.Add(this.checkBoxTermeniCond);
             this.Controls.Add(this.checkBoxPlataLivrare);
             this.Controls.Add(this.labelPlataLivrare);
@@ -688,8 +687,8 @@ namespace FinalProjectCurs
         private System.Windows.Forms.Label labelPlataLivrare;
         private System.Windows.Forms.CheckBox checkBoxPlataLivrare;
         private System.Windows.Forms.CheckBox checkBoxTermeniCond;
-        private System.Windows.Forms.Label labelTermeniCond;
         private System.Windows.Forms.ListBox listBoxTrimiteRezervarea;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }

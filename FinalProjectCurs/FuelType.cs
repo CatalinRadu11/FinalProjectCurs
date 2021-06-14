@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace FinalProjectCurs
 {
+
+    [Serializable]
     public enum FuelType
     {
         Benzina,

@@ -22,12 +22,16 @@ namespace FinalProjectCurs
         Car Lamborghini = new Car(CarModel.LamborghiniAventador, 2020, 200, "Rosu", "Cutie Automata", FuelType.Diesel);
         Car Toyota = new Car(CarModel.ToyotaAuris, 2015, 60, "Alb", "Cutie Automata", FuelType.Hybrid);
 
+        Car SelectedCar;
+
         //initializarea formului si adaugarea masinilor (din enum) in combobox
         List<Car> carsList;
 
         //initializarea formului si adaugarea masinilor (din enum) in combobox
         public Form1()
         {
+            SelectedCar = Audi;
+
             InitializeComponent();
 
             carsList = new List<Car>() { Audi, Volkswagen, BMW, Hyundai, Lamborghini, Toyota };
@@ -80,7 +84,7 @@ namespace FinalProjectCurs
                     listBox1.Items.Add(Audi.MakeYear);
                     listBox1.Items.Add(Audi.Colour);
                     listBox1.Items.Add(Audi.Transmission);
-
+                    SelectedCar = Audi;
                     break;
                 case "Volkswagen Tiguan":
                     pictureBox_car.Image = Image.FromFile(dir + "images\\4.png");
@@ -92,6 +96,7 @@ namespace FinalProjectCurs
                     listBox1.Items.Add(Volkswagen.MakeYear);
                     listBox1.Items.Add(Volkswagen.Colour);
                     listBox1.Items.Add(Volkswagen.Transmission);
+                    SelectedCar = Volkswagen;
                     break;
                 case "BMW I8":
                     pictureBox_car.Image = Image.FromFile(dir + "images\\2.png");
@@ -102,6 +107,7 @@ namespace FinalProjectCurs
                     listBox1.Items.Add(CarModel.BMWI8);
                     listBox1.Items.Add(BMW.MakeYear);
                     listBox1.Items.Add(BMW.Transmission);
+                    SelectedCar = BMW;
                     break;
                 case "Hyundai Tucson":
                     pictureBox_car.Image = Image.FromFile(dir + "images\\5.png");
@@ -113,6 +119,7 @@ namespace FinalProjectCurs
                     listBox1.Items.Add(Hyundai.MakeYear);
                     listBox1.Items.Add(Hyundai.Colour);
                     listBox1.Items.Add(Hyundai.Transmission);
+                    SelectedCar = Hyundai;
                     break;
                 case "Lamborghini Aventador":
                     pictureBox_car.Image = Image.FromFile(dir + "images\\1.png");
@@ -124,6 +131,7 @@ namespace FinalProjectCurs
                     listBox1.Items.Add(Lamborghini.MakeYear);
                     listBox1.Items.Add(Lamborghini.Colour);
                     listBox1.Items.Add(Lamborghini.Transmission);
+                    SelectedCar = Lamborghini;
                     break;
                 case "Toyota Auris":
                     pictureBox_car.Image = Image.FromFile(dir + "images\\7.png");
@@ -135,6 +143,7 @@ namespace FinalProjectCurs
                     listBox1.Items.Add(Toyota.MakeYear);
                     listBox1.Items.Add(Toyota.Colour);
                     listBox1.Items.Add(Toyota.Transmission);
+                    SelectedCar = Toyota;
                     break;
                 default:
                     MessageBox.Show("Nu ai ales nicio masina!"); //functioneaza
@@ -160,7 +169,7 @@ namespace FinalProjectCurs
         {
             carBoxImg = pictureBox_car1.Image;
             //this.Hide();
-            Form2 f2 = new Form2(); //this is the change, code for redirect 
+            Form2 f2 = new Form2(SelectedCar); //this is the change, code for redirect 
             f2.ShowDialog();
         }
 
@@ -191,4 +200,3 @@ namespace FinalProjectCurs
         }
     }
 }
-
