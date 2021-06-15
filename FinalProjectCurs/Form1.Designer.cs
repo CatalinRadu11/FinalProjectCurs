@@ -360,7 +360,7 @@ namespace FinalProjectCurs
             this.listBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 21;
-            this.listBox1.Location = new System.Drawing.Point(160, 577);
+            this.listBox1.Location = new System.Drawing.Point(178, 581);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(248, 109);
             this.listBox1.TabIndex = 22;
@@ -452,7 +452,7 @@ namespace FinalProjectCurs
             this.labelPrice.AutoSize = true;
             this.labelPrice.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelPrice.ForeColor = System.Drawing.Color.DarkRed;
-            this.labelPrice.Location = new System.Drawing.Point(38, 611);
+            this.labelPrice.Location = new System.Drawing.Point(22, 616);
             this.labelPrice.Name = "labelPrice";
             this.labelPrice.Size = new System.Drawing.Size(116, 54);
             this.labelPrice.TabIndex = 12;
