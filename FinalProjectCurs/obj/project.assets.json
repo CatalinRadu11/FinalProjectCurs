@@ -8,28 +8,20 @@
     "net5.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\.Net\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\AE\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\.Net\\source\\repos\\ProjectCars\\FinalProjectCurs\\FinalProjectCurs\\FinalProjectCurs.csproj",
+      "projectUniqueName": "C:\\Users\\AE\\Desktop\\New folder\\FinalProjectCurs\\FinalProjectCurs.csproj",
       "projectName": "FinalProjectCurs",
-      "projectPath": "C:\\Users\\.Net\\source\\repos\\ProjectCars\\FinalProjectCurs\\FinalProjectCurs\\FinalProjectCurs.csproj",
-      "packagesPath": "C:\\Users\\.Net\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\.Net\\source\\repos\\ProjectCars\\FinalProjectCurs\\FinalProjectCurs\\obj\\",
+      "projectPath": "C:\\Users\\AE\\Desktop\\New folder\\FinalProjectCurs\\FinalProjectCurs.csproj",
+      "packagesPath": "C:\\Users\\AE\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\AE\\Desktop\\New folder\\FinalProjectCurs\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\.Net\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\AE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0-windows7.0"

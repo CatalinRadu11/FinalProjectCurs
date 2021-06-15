@@ -128,7 +128,7 @@ namespace FinalProjectCurs
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(23, 346);
+            this.button1.Location = new System.Drawing.Point(23, 362);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(117, 32);
             this.button1.TabIndex = 25;
@@ -139,11 +139,11 @@ namespace FinalProjectCurs
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label8.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(101, 488);
+            this.label8.Location = new System.Drawing.Point(86, 485);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(218, 21);
+            this.label8.Size = new System.Drawing.Size(276, 25);
             this.label8.TabIndex = 24;
             this.label8.Text = "Selecteaza Tipul de Carburant:";
             // 
@@ -170,7 +170,7 @@ namespace FinalProjectCurs
             this.panel1.Controls.Add(this.pictureBox4);
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Location = new System.Drawing.Point(22, 127);
+            this.panel1.Location = new System.Drawing.Point(22, 143);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(388, 214);
@@ -284,10 +284,11 @@ namespace FinalProjectCurs
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(22, 98);
+            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(22, 114);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(118, 19);
+            this.label1.Size = new System.Drawing.Size(137, 21);
             this.label1.TabIndex = 21;
             this.label1.Text = "de ce sa ne alegi?";
             // 
@@ -297,14 +298,14 @@ namespace FinalProjectCurs
             this.pictureBox1.Location = new System.Drawing.Point(10, 9);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(111, 49);
+            this.pictureBox1.Size = new System.Drawing.Size(100, 49);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 20;
             this.pictureBox1.TabStop = false;
             // 
             // buttonRezervaAcum
             // 
-            this.buttonRezervaAcum.Location = new System.Drawing.Point(130, 642);
+            this.buttonRezervaAcum.Location = new System.Drawing.Point(135, 639);
             this.buttonRezervaAcum.Name = "buttonRezervaAcum";
             this.buttonRezervaAcum.Size = new System.Drawing.Size(157, 34);
             this.buttonRezervaAcum.TabIndex = 19;
@@ -315,18 +316,18 @@ namespace FinalProjectCurs
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(130, 581);
+            this.label5.Location = new System.Drawing.Point(128, 581);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(139, 21);
+            this.label5.Size = new System.Drawing.Size(176, 25);
             this.label5.TabIndex = 18;
             this.label5.Text = "Selecteaza Masina:";
             // 
             // comboBoxCar
             // 
             this.comboBoxCar.FormattingEnabled = true;
-            this.comboBoxCar.Location = new System.Drawing.Point(114, 605);
+            this.comboBoxCar.Location = new System.Drawing.Point(114, 609);
             this.comboBoxCar.Name = "comboBoxCar";
             this.comboBoxCar.Size = new System.Drawing.Size(200, 23);
             this.comboBoxCar.TabIndex = 15;
@@ -337,8 +338,8 @@ namespace FinalProjectCurs
             // 
             this.labelLocation.AutoSize = true;
             this.labelLocation.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelLocation.ForeColor = System.Drawing.Color.DarkRed;
-            this.labelLocation.Location = new System.Drawing.Point(56, 557);
+            this.labelLocation.ForeColor = System.Drawing.Color.Tomato;
+            this.labelLocation.Location = new System.Drawing.Point(79, 553);
             this.labelLocation.Name = "labelLocation";
             this.labelLocation.Size = new System.Drawing.Size(283, 25);
             this.labelLocation.TabIndex = 12;
@@ -347,11 +348,11 @@ namespace FinalProjectCurs
             // labelCompanyName
             // 
             this.labelCompanyName.AutoSize = true;
-            this.labelCompanyName.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelCompanyName.ForeColor = System.Drawing.Color.DarkRed;
+            this.labelCompanyName.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelCompanyName.ForeColor = System.Drawing.Color.Tomato;
             this.labelCompanyName.Location = new System.Drawing.Point(10, 60);
             this.labelCompanyName.Name = "labelCompanyName";
-            this.labelCompanyName.Size = new System.Drawing.Size(167, 41);
+            this.labelCompanyName.Size = new System.Drawing.Size(223, 54);
             this.labelCompanyName.TabIndex = 11;
             this.labelCompanyName.Text = "Rent A Car";
             // 
@@ -369,7 +370,7 @@ namespace FinalProjectCurs
             // 
             this.labelEmail.AutoSize = true;
             this.labelEmail.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelEmail.ForeColor = System.Drawing.Color.DarkRed;
+            this.labelEmail.ForeColor = System.Drawing.Color.Tomato;
             this.labelEmail.Location = new System.Drawing.Point(664, 676);
             this.labelEmail.Name = "labelEmail";
             this.labelEmail.Size = new System.Drawing.Size(169, 21);
@@ -380,7 +381,7 @@ namespace FinalProjectCurs
             // 
             this.labelPhone.AutoSize = true;
             this.labelPhone.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelPhone.ForeColor = System.Drawing.Color.DarkRed;
+            this.labelPhone.ForeColor = System.Drawing.Color.Tomato;
             this.labelPhone.Location = new System.Drawing.Point(666, 642);
             this.labelPhone.Name = "labelPhone";
             this.labelPhone.Size = new System.Drawing.Size(108, 21);
@@ -451,7 +452,7 @@ namespace FinalProjectCurs
             // 
             this.labelPrice.AutoSize = true;
             this.labelPrice.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelPrice.ForeColor = System.Drawing.Color.DarkRed;
+            this.labelPrice.ForeColor = System.Drawing.Color.Tomato;
             this.labelPrice.Location = new System.Drawing.Point(22, 616);
             this.labelPrice.Name = "labelPrice";
             this.labelPrice.Size = new System.Drawing.Size(116, 54);

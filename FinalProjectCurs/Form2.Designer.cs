@@ -107,11 +107,11 @@ namespace FinalProjectCurs
             // 
             this.labelDataPreluarii.AutoSize = true;
             this.labelDataPreluarii.BackColor = System.Drawing.Color.Transparent;
-            this.labelDataPreluarii.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelDataPreluarii.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelDataPreluarii.ForeColor = System.Drawing.Color.LightGray;
             this.labelDataPreluarii.Location = new System.Drawing.Point(719, 82);
             this.labelDataPreluarii.Name = "labelDataPreluarii";
-            this.labelDataPreluarii.Size = new System.Drawing.Size(107, 21);
+            this.labelDataPreluarii.Size = new System.Drawing.Size(111, 21);
             this.labelDataPreluarii.TabIndex = 14;
             this.labelDataPreluarii.Text = "Data preluarii:";
             // 
@@ -119,11 +119,11 @@ namespace FinalProjectCurs
             // 
             this.labelDataPredarii.AutoSize = true;
             this.labelDataPredarii.BackColor = System.Drawing.Color.Transparent;
-            this.labelDataPredarii.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelDataPredarii.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelDataPredarii.ForeColor = System.Drawing.Color.LightGray;
             this.labelDataPredarii.Location = new System.Drawing.Point(719, 177);
             this.labelDataPredarii.Name = "labelDataPredarii";
-            this.labelDataPredarii.Size = new System.Drawing.Size(103, 21);
+            this.labelDataPredarii.Size = new System.Drawing.Size(108, 21);
             this.labelDataPredarii.TabIndex = 15;
             this.labelDataPredarii.Text = "Data predarii:";
             // 
@@ -132,7 +132,7 @@ namespace FinalProjectCurs
             this.labelAlegeDatele.AutoSize = true;
             this.labelAlegeDatele.BackColor = System.Drawing.Color.Transparent;
             this.labelAlegeDatele.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelAlegeDatele.ForeColor = System.Drawing.Color.DarkRed;
+            this.labelAlegeDatele.ForeColor = System.Drawing.Color.Tomato;
             this.labelAlegeDatele.Location = new System.Drawing.Point(719, 9);
             this.labelAlegeDatele.Name = "labelAlegeDatele";
             this.labelAlegeDatele.Size = new System.Drawing.Size(146, 25);
@@ -144,7 +144,7 @@ namespace FinalProjectCurs
             this.labelDatePersonale.AutoSize = true;
             this.labelDatePersonale.BackColor = System.Drawing.Color.Transparent;
             this.labelDatePersonale.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelDatePersonale.ForeColor = System.Drawing.Color.DarkRed;
+            this.labelDatePersonale.ForeColor = System.Drawing.Color.Tomato;
             this.labelDatePersonale.Location = new System.Drawing.Point(719, 279);
             this.labelDatePersonale.Name = "labelDatePersonale";
             this.labelDatePersonale.Size = new System.Drawing.Size(176, 25);
@@ -155,11 +155,11 @@ namespace FinalProjectCurs
             // 
             this.labelNume.AutoSize = true;
             this.labelNume.BackColor = System.Drawing.Color.Transparent;
-            this.labelNume.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelNume.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelNume.ForeColor = System.Drawing.Color.LightGray;
             this.labelNume.Location = new System.Drawing.Point(719, 334);
             this.labelNume.Name = "labelNume";
-            this.labelNume.Size = new System.Drawing.Size(56, 21);
+            this.labelNume.Size = new System.Drawing.Size(58, 21);
             this.labelNume.TabIndex = 18;
             this.labelNume.Text = "Nume:";
             // 
@@ -167,11 +167,11 @@ namespace FinalProjectCurs
             // 
             this.labelEmail.AutoSize = true;
             this.labelEmail.BackColor = System.Drawing.Color.Transparent;
-            this.labelEmail.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelEmail.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelEmail.ForeColor = System.Drawing.Color.LightGray;
             this.labelEmail.Location = new System.Drawing.Point(719, 401);
             this.labelEmail.Name = "labelEmail";
-            this.labelEmail.Size = new System.Drawing.Size(51, 21);
+            this.labelEmail.Size = new System.Drawing.Size(52, 21);
             this.labelEmail.TabIndex = 19;
             this.labelEmail.Text = "Email:";
             // 
@@ -179,11 +179,11 @@ namespace FinalProjectCurs
             // 
             this.labelTelefon.AutoSize = true;
             this.labelTelefon.BackColor = System.Drawing.Color.Transparent;
-            this.labelTelefon.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelTelefon.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelTelefon.ForeColor = System.Drawing.Color.LightGray;
             this.labelTelefon.Location = new System.Drawing.Point(719, 474);
             this.labelTelefon.Name = "labelTelefon";
-            this.labelTelefon.Size = new System.Drawing.Size(62, 21);
+            this.labelTelefon.Size = new System.Drawing.Size(68, 21);
             this.labelTelefon.TabIndex = 20;
             this.labelTelefon.Text = "Telefon:";
             // 
@@ -230,11 +230,11 @@ namespace FinalProjectCurs
             // 
             this.labelMesaj.AutoSize = true;
             this.labelMesaj.BackColor = System.Drawing.Color.Transparent;
-            this.labelMesaj.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelMesaj.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelMesaj.ForeColor = System.Drawing.Color.LightGray;
             this.labelMesaj.Location = new System.Drawing.Point(992, 334);
             this.labelMesaj.Name = "labelMesaj";
-            this.labelMesaj.Size = new System.Drawing.Size(54, 21);
+            this.labelMesaj.Size = new System.Drawing.Size(57, 21);
             this.labelMesaj.TabIndex = 26;
             this.labelMesaj.Text = "Mesaj:";
             // 
@@ -243,7 +243,7 @@ namespace FinalProjectCurs
             this.labelSumarRezervare.AutoSize = true;
             this.labelSumarRezervare.BackColor = System.Drawing.Color.Transparent;
             this.labelSumarRezervare.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelSumarRezervare.ForeColor = System.Drawing.Color.DarkRed;
+            this.labelSumarRezervare.ForeColor = System.Drawing.Color.Tomato;
             this.labelSumarRezervare.Location = new System.Drawing.Point(268, 493);
             this.labelSumarRezervare.Name = "labelSumarRezervare";
             this.labelSumarRezervare.Size = new System.Drawing.Size(168, 25);
@@ -366,11 +366,11 @@ namespace FinalProjectCurs
             // 
             this.labelOraPreluare.AutoSize = true;
             this.labelOraPreluare.BackColor = System.Drawing.Color.Transparent;
-            this.labelOraPreluare.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelOraPreluare.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelOraPreluare.ForeColor = System.Drawing.Color.LightGray;
             this.labelOraPreluare.Location = new System.Drawing.Point(1019, 82);
             this.labelOraPreluare.Name = "labelOraPreluare";
-            this.labelOraPreluare.Size = new System.Drawing.Size(39, 21);
+            this.labelOraPreluare.Size = new System.Drawing.Size(40, 21);
             this.labelOraPreluare.TabIndex = 37;
             this.labelOraPreluare.Text = "Ora:";
             // 
@@ -378,11 +378,11 @@ namespace FinalProjectCurs
             // 
             this.labelMinutePreluare.AutoSize = true;
             this.labelMinutePreluare.BackColor = System.Drawing.Color.Transparent;
-            this.labelMinutePreluare.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelMinutePreluare.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelMinutePreluare.ForeColor = System.Drawing.Color.LightGray;
             this.labelMinutePreluare.Location = new System.Drawing.Point(1152, 82);
             this.labelMinutePreluare.Name = "labelMinutePreluare";
-            this.labelMinutePreluare.Size = new System.Drawing.Size(62, 21);
+            this.labelMinutePreluare.Size = new System.Drawing.Size(66, 21);
             this.labelMinutePreluare.TabIndex = 38;
             this.labelMinutePreluare.Text = "Minute:";
             // 
@@ -390,11 +390,11 @@ namespace FinalProjectCurs
             // 
             this.labelOraPredare.AutoSize = true;
             this.labelOraPredare.BackColor = System.Drawing.Color.Transparent;
-            this.labelOraPredare.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelOraPredare.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelOraPredare.ForeColor = System.Drawing.Color.LightGray;
             this.labelOraPredare.Location = new System.Drawing.Point(1019, 180);
             this.labelOraPredare.Name = "labelOraPredare";
-            this.labelOraPredare.Size = new System.Drawing.Size(39, 21);
+            this.labelOraPredare.Size = new System.Drawing.Size(40, 21);
             this.labelOraPredare.TabIndex = 39;
             this.labelOraPredare.Text = "Ora:";
             // 
@@ -402,11 +402,11 @@ namespace FinalProjectCurs
             // 
             this.labelMinutePredare.AutoSize = true;
             this.labelMinutePredare.BackColor = System.Drawing.Color.Transparent;
-            this.labelMinutePredare.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelMinutePredare.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelMinutePredare.ForeColor = System.Drawing.Color.LightGray;
             this.labelMinutePredare.Location = new System.Drawing.Point(1153, 180);
             this.labelMinutePredare.Name = "labelMinutePredare";
-            this.labelMinutePredare.Size = new System.Drawing.Size(62, 21);
+            this.labelMinutePredare.Size = new System.Drawing.Size(66, 21);
             this.labelMinutePredare.TabIndex = 40;
             this.labelMinutePredare.Text = "Minute:";
             // 
@@ -517,7 +517,7 @@ namespace FinalProjectCurs
             this.labelPlata.AutoSize = true;
             this.labelPlata.BackColor = System.Drawing.Color.Transparent;
             this.labelPlata.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelPlata.ForeColor = System.Drawing.Color.DarkRed;
+            this.labelPlata.ForeColor = System.Drawing.Color.Tomato;
             this.labelPlata.Location = new System.Drawing.Point(729, 558);
             this.labelPlata.Name = "labelPlata";
             this.labelPlata.Size = new System.Drawing.Size(69, 25);
