@@ -16,10 +16,10 @@ namespace FinalProjectCurs
     public partial class Form1 : Form
     {
         Car Audi = new Car(CarModel.AudiA3, 2017, 50, "Rosu", "Cutie manuala", FuelType.Benzina);
-        Car Volkswagen = new Car(CarModel.VolkswagenTiguan, 2017, 80, "Negru", "Cutie Automata", FuelType.Benzina);
+        Car Volkswagen = new Car(CarModel.VolkswagenTiguan, 2017, 80, "Negru", "Cutie Automata", FuelType.Diesel);
         Car BMW = new Car(CarModel.BMWI8, 2019, 100, "Alb", "Cutie Automata", FuelType.Hybrid);
         Car Hyundai = new Car(CarModel.HyundaiTucson, 2018, 90, "Albastru", "Cutie Manuala", FuelType.Electric);
-        Car Lamborghini = new Car(CarModel.LamborghiniAventador, 2020, 200, "Rosu", "Cutie Automata", FuelType.Diesel);
+        Car Lamborghini = new Car(CarModel.LamborghiniAventador, 2020, 200, "Rosu", "Cutie Automata", FuelType.Benzina);
         Car Toyota = new Car(CarModel.ToyotaAuris, 2015, 60, "Alb", "Cutie Automata", FuelType.Hybrid);
 
         Car SelectedCar;
@@ -79,7 +79,7 @@ namespace FinalProjectCurs
                     pictureBox_car1.Image = Image.FromFile(dir + "images\\3.png");
                     pictureBox_car2.Image = Image.FromFile(dir + "images\\33.png");
                     pictureBox_car3.Image = Image.FromFile(dir + "images\\333.png");
-                    labelPrice.Text = Audi.Price.ToString() + "lei";
+                    labelPrice.Text = Audi.Price.ToString() + " lei";
                     listBox1.Items.Add(CarModel.AudiA3);
                     listBox1.Items.Add(Audi.MakeYear);
                     listBox1.Items.Add(Audi.Colour);
@@ -91,7 +91,7 @@ namespace FinalProjectCurs
                     pictureBox_car1.Image = Image.FromFile(dir + "images\\4.png");
                     pictureBox_car2.Image = Image.FromFile(dir + "images\\44.png");
                     pictureBox_car3.Image = Image.FromFile(dir + "images\\444.png");
-                    labelPrice.Text = Volkswagen.Price.ToString() + "lei";
+                    labelPrice.Text = Volkswagen.Price.ToString() + " lei";
                     listBox1.Items.Add(CarModel.VolkswagenTiguan);
                     listBox1.Items.Add(Volkswagen.MakeYear);
                     listBox1.Items.Add(Volkswagen.Colour);
@@ -103,7 +103,7 @@ namespace FinalProjectCurs
                     pictureBox_car1.Image = Image.FromFile(dir + "images\\2.png");
                     pictureBox_car2.Image = Image.FromFile(dir + "images\\22.png");
                     pictureBox_car3.Image = Image.FromFile(dir + "images\\222.png");
-                    labelPrice.Text = BMW.Price.ToString() + "lei";
+                    labelPrice.Text = BMW.Price.ToString() + " lei";
                     listBox1.Items.Add(CarModel.BMWI8);
                     listBox1.Items.Add(BMW.MakeYear);
                     listBox1.Items.Add(BMW.Transmission);
@@ -114,7 +114,7 @@ namespace FinalProjectCurs
                     pictureBox_car1.Image = Image.FromFile(dir + "images\\5.png");
                     pictureBox_car2.Image = Image.FromFile(dir + "images\\55.png");
                     pictureBox_car3.Image = Image.FromFile(dir + "images\\555.png");
-                    labelPrice.Text = Hyundai.Price.ToString() + "lei";
+                    labelPrice.Text = Hyundai.Price.ToString() + " lei";
                     listBox1.Items.Add(CarModel.HyundaiTucson);
                     listBox1.Items.Add(Hyundai.MakeYear);
                     listBox1.Items.Add(Hyundai.Colour);
@@ -126,7 +126,7 @@ namespace FinalProjectCurs
                     pictureBox_car1.Image = Image.FromFile(dir + "images\\1.png");
                     pictureBox_car2.Image = Image.FromFile(dir + "images\\11.png");
                     pictureBox_car3.Image = Image.FromFile(dir + "images\\111.png");
-                    labelPrice.Text = Lamborghini.Price.ToString() + "lei";
+                    labelPrice.Text = Lamborghini.Price.ToString() + " lei";
                     listBox1.Items.Add(CarModel.LamborghiniAventador);
                     listBox1.Items.Add(Lamborghini.MakeYear);
                     listBox1.Items.Add(Lamborghini.Colour);
@@ -138,7 +138,7 @@ namespace FinalProjectCurs
                     pictureBox_car1.Image = Image.FromFile(dir + "images\\7.png");
                     pictureBox_car2.Image = Image.FromFile(dir + "images\\77.png");
                     pictureBox_car3.Image = Image.FromFile(dir + "images\\777.png");
-                    labelPrice.Text = Toyota.Price.ToString() + "lei";
+                    labelPrice.Text = Toyota.Price.ToString() + " lei";
                     listBox1.Items.Add(CarModel.ToyotaAuris);
                     listBox1.Items.Add(Toyota.MakeYear);
                     listBox1.Items.Add(Toyota.Colour);
