@@ -26,6 +26,8 @@ namespace FinalProjectCurs
             this.SelectedCar = c;
             InitializeComponent();
             pictureBoxCarForm2.Image = Form1.carBoxImg;
+            labelPretMasina.Text = c.Price.ToString();
+            labelTotal.Text = labelPretMasina.Text;
         }
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
@@ -34,7 +36,10 @@ namespace FinalProjectCurs
 
             if (outTime >= inTime)
             {
-                listBoxTrimiteRezervarea.Items.Add(outTime.Subtract(inTime).Days.ToString()); //= outTime.Subtract(inTime).Days.ToString();
+                labelZileInchiriere.Text = outTime.Subtract(inTime).Days.ToString();
+                var a = Convert.ToInt32(labelZileInchiriere.Text);
+                var b = Convert.ToInt32(labelPretMasina.Text);
+                labelTotal.Text = (a * b).ToString();
             }
         }
 
@@ -45,20 +50,12 @@ namespace FinalProjectCurs
 
             if (outTime >= inTime)
             {
-                listBoxTrimiteRezervarea.Items.Add(outTime.Subtract(inTime).Days.ToString()); //= outTime.Subtract(inTime).Days.ToString();
+                labelZileInchiriere.Text = outTime.Subtract(inTime).Days.ToString();
+                var a = Convert.ToInt32(labelZileInchiriere.Text);
+                var b = Convert.ToInt32(labelPretMasina.Text);
+                labelTotal.Text = (a * b).ToString();
             }
         }
-
-        private void checkBoxPlataCash_CheckedChanged(object sender, EventArgs e)
-        {
-            listBoxTrimiteRezervarea.Items.Add("Plata Cash");
-        }
-
-        private void checkBoxPlataLivrare_CheckedChanged(object sender, EventArgs e)
-        {
-            listBoxTrimiteRezervarea.Items.Add("Plata Card");
-        }
-
         private void buttonTrimiteRezervarea_Click(object sender, EventArgs e)
         {
             //this.Hide();
@@ -69,10 +66,6 @@ namespace FinalProjectCurs
             c.Model = SelectedCar;
             Form3 f3 = new Form3(c); //this is the change, code for redirect
 
-            //Form3.dataGridView1.Rows[Form3.dataGridView1.Rows.Count - 1].Cells[0].Value = textBoxNume.Text;
-            //Form3.dataGridView1.Rows[Form3.dataGridView1.Rows.Count-1].Cells[1].Value = textBoxNume.Text;
-            //Form3.dataGridView1.Rows[Form3.dataGridView1.Rows.Count - 1].Cells[2].Value = dateTimePicker2.Value;
-            //Form3.dataGridView1.Rows[Form3.dataGridView1.Rows.Count - 1].Cells[3].Value = dateTimePicker2.Value;
             MessageBox.Show("Comanda dumneavoastra a fost preluata!");
             f3.ShowDialog();
         }
@@ -86,12 +79,26 @@ namespace FinalProjectCurs
             try
             {
                 openit("http://rentacar-termenisiconditii.simplesite.com/");
-
-
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Unable to open link that was clicked.");
+            }
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            var x = Convert.ToInt32(labelTotal.Text);
+
+            if (checkBox1.Checked)
+            {
+                labelTotal.Text = (x + 250).ToString();
+                labelGarantie.Text = "0";
+            }
+            else
+            {
+                labelTotal.Text = (x - 250).ToString();
+                labelGarantie.Text = "1000";
             }
         }
     }

@@ -62,9 +62,17 @@ namespace FinalProjectCurs
             this.labelPlataLivrare = new System.Windows.Forms.Label();
             this.checkBoxPlataLivrare = new System.Windows.Forms.CheckBox();
             this.checkBoxTermeniCond = new System.Windows.Forms.CheckBox();
-            this.listBoxTrimiteRezervarea = new System.Windows.Forms.ListBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.labelZileInchiriere = new System.Windows.Forms.Label();
+            this.labelGarantie = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.labelTotal = new System.Windows.Forms.Label();
+            this.labelPretMasina = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCarForm2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -74,7 +82,7 @@ namespace FinalProjectCurs
             this.pictureBoxCarForm2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxCarForm2.Location = new System.Drawing.Point(64, 79);
             this.pictureBoxCarForm2.Name = "pictureBoxCarForm2";
-            this.pictureBoxCarForm2.Size = new System.Drawing.Size(596, 276);
+            this.pictureBoxCarForm2.Size = new System.Drawing.Size(596, 254);
             this.pictureBoxCarForm2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxCarForm2.TabIndex = 2;
             this.pictureBoxCarForm2.TabStop = false;
@@ -99,11 +107,11 @@ namespace FinalProjectCurs
             // 
             this.labelDataPreluarii.AutoSize = true;
             this.labelDataPreluarii.BackColor = System.Drawing.Color.Transparent;
-            this.labelDataPreluarii.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelDataPreluarii.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelDataPreluarii.ForeColor = System.Drawing.Color.LightGray;
             this.labelDataPreluarii.Location = new System.Drawing.Point(719, 82);
             this.labelDataPreluarii.Name = "labelDataPreluarii";
-            this.labelDataPreluarii.Size = new System.Drawing.Size(111, 21);
+            this.labelDataPreluarii.Size = new System.Drawing.Size(107, 21);
             this.labelDataPreluarii.TabIndex = 14;
             this.labelDataPreluarii.Text = "Data preluarii:";
             // 
@@ -111,11 +119,11 @@ namespace FinalProjectCurs
             // 
             this.labelDataPredarii.AutoSize = true;
             this.labelDataPredarii.BackColor = System.Drawing.Color.Transparent;
-            this.labelDataPredarii.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelDataPredarii.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelDataPredarii.ForeColor = System.Drawing.Color.LightGray;
             this.labelDataPredarii.Location = new System.Drawing.Point(719, 177);
             this.labelDataPredarii.Name = "labelDataPredarii";
-            this.labelDataPredarii.Size = new System.Drawing.Size(108, 21);
+            this.labelDataPredarii.Size = new System.Drawing.Size(103, 21);
             this.labelDataPredarii.TabIndex = 15;
             this.labelDataPredarii.Text = "Data predarii:";
             // 
@@ -124,8 +132,8 @@ namespace FinalProjectCurs
             this.labelAlegeDatele.AutoSize = true;
             this.labelAlegeDatele.BackColor = System.Drawing.Color.Transparent;
             this.labelAlegeDatele.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelAlegeDatele.ForeColor = System.Drawing.Color.Tomato;
-            this.labelAlegeDatele.Location = new System.Drawing.Point(717, 23);
+            this.labelAlegeDatele.ForeColor = System.Drawing.Color.DarkRed;
+            this.labelAlegeDatele.Location = new System.Drawing.Point(719, 9);
             this.labelAlegeDatele.Name = "labelAlegeDatele";
             this.labelAlegeDatele.Size = new System.Drawing.Size(146, 25);
             this.labelAlegeDatele.TabIndex = 16;
@@ -136,7 +144,7 @@ namespace FinalProjectCurs
             this.labelDatePersonale.AutoSize = true;
             this.labelDatePersonale.BackColor = System.Drawing.Color.Transparent;
             this.labelDatePersonale.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelDatePersonale.ForeColor = System.Drawing.Color.Tomato;
+            this.labelDatePersonale.ForeColor = System.Drawing.Color.DarkRed;
             this.labelDatePersonale.Location = new System.Drawing.Point(719, 279);
             this.labelDatePersonale.Name = "labelDatePersonale";
             this.labelDatePersonale.Size = new System.Drawing.Size(176, 25);
@@ -147,11 +155,11 @@ namespace FinalProjectCurs
             // 
             this.labelNume.AutoSize = true;
             this.labelNume.BackColor = System.Drawing.Color.Transparent;
-            this.labelNume.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelNume.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelNume.ForeColor = System.Drawing.Color.LightGray;
             this.labelNume.Location = new System.Drawing.Point(719, 334);
             this.labelNume.Name = "labelNume";
-            this.labelNume.Size = new System.Drawing.Size(58, 21);
+            this.labelNume.Size = new System.Drawing.Size(56, 21);
             this.labelNume.TabIndex = 18;
             this.labelNume.Text = "Nume:";
             // 
@@ -159,11 +167,11 @@ namespace FinalProjectCurs
             // 
             this.labelEmail.AutoSize = true;
             this.labelEmail.BackColor = System.Drawing.Color.Transparent;
-            this.labelEmail.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelEmail.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelEmail.ForeColor = System.Drawing.Color.LightGray;
             this.labelEmail.Location = new System.Drawing.Point(719, 401);
             this.labelEmail.Name = "labelEmail";
-            this.labelEmail.Size = new System.Drawing.Size(52, 21);
+            this.labelEmail.Size = new System.Drawing.Size(51, 21);
             this.labelEmail.TabIndex = 19;
             this.labelEmail.Text = "Email:";
             // 
@@ -171,11 +179,11 @@ namespace FinalProjectCurs
             // 
             this.labelTelefon.AutoSize = true;
             this.labelTelefon.BackColor = System.Drawing.Color.Transparent;
-            this.labelTelefon.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelTelefon.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelTelefon.ForeColor = System.Drawing.Color.LightGray;
             this.labelTelefon.Location = new System.Drawing.Point(719, 474);
             this.labelTelefon.Name = "labelTelefon";
-            this.labelTelefon.Size = new System.Drawing.Size(68, 21);
+            this.labelTelefon.Size = new System.Drawing.Size(62, 21);
             this.labelTelefon.TabIndex = 20;
             this.labelTelefon.Text = "Telefon:";
             // 
@@ -222,11 +230,11 @@ namespace FinalProjectCurs
             // 
             this.labelMesaj.AutoSize = true;
             this.labelMesaj.BackColor = System.Drawing.Color.Transparent;
-            this.labelMesaj.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelMesaj.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelMesaj.ForeColor = System.Drawing.Color.LightGray;
             this.labelMesaj.Location = new System.Drawing.Point(992, 334);
             this.labelMesaj.Name = "labelMesaj";
-            this.labelMesaj.Size = new System.Drawing.Size(57, 21);
+            this.labelMesaj.Size = new System.Drawing.Size(54, 21);
             this.labelMesaj.TabIndex = 26;
             this.labelMesaj.Text = "Mesaj:";
             // 
@@ -235,16 +243,16 @@ namespace FinalProjectCurs
             this.labelSumarRezervare.AutoSize = true;
             this.labelSumarRezervare.BackColor = System.Drawing.Color.Transparent;
             this.labelSumarRezervare.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelSumarRezervare.ForeColor = System.Drawing.Color.Tomato;
-            this.labelSumarRezervare.Location = new System.Drawing.Point(195, 490);
+            this.labelSumarRezervare.ForeColor = System.Drawing.Color.DarkRed;
+            this.labelSumarRezervare.Location = new System.Drawing.Point(268, 493);
             this.labelSumarRezervare.Name = "labelSumarRezervare";
-            this.labelSumarRezervare.Size = new System.Drawing.Size(193, 25);
+            this.labelSumarRezervare.Size = new System.Drawing.Size(168, 25);
             this.labelSumarRezervare.TabIndex = 29;
-            this.labelSumarRezervare.Text = "SUMAR REZERVARE:";
+            this.labelSumarRezervare.Text = "Sumar Rezervare:";
             // 
             // buttonTrimiteRezervarea
             // 
-            this.buttonTrimiteRezervarea.Location = new System.Drawing.Point(250, 633);
+            this.buttonTrimiteRezervarea.Location = new System.Drawing.Point(279, 633);
             this.buttonTrimiteRezervarea.Name = "buttonTrimiteRezervarea";
             this.buttonTrimiteRezervarea.Size = new System.Drawing.Size(157, 34);
             this.buttonTrimiteRezervarea.TabIndex = 30;
@@ -358,11 +366,11 @@ namespace FinalProjectCurs
             // 
             this.labelOraPreluare.AutoSize = true;
             this.labelOraPreluare.BackColor = System.Drawing.Color.Transparent;
-            this.labelOraPreluare.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelOraPreluare.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelOraPreluare.ForeColor = System.Drawing.Color.LightGray;
             this.labelOraPreluare.Location = new System.Drawing.Point(1019, 82);
             this.labelOraPreluare.Name = "labelOraPreluare";
-            this.labelOraPreluare.Size = new System.Drawing.Size(40, 21);
+            this.labelOraPreluare.Size = new System.Drawing.Size(39, 21);
             this.labelOraPreluare.TabIndex = 37;
             this.labelOraPreluare.Text = "Ora:";
             // 
@@ -370,11 +378,11 @@ namespace FinalProjectCurs
             // 
             this.labelMinutePreluare.AutoSize = true;
             this.labelMinutePreluare.BackColor = System.Drawing.Color.Transparent;
-            this.labelMinutePreluare.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelMinutePreluare.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelMinutePreluare.ForeColor = System.Drawing.Color.LightGray;
             this.labelMinutePreluare.Location = new System.Drawing.Point(1152, 82);
             this.labelMinutePreluare.Name = "labelMinutePreluare";
-            this.labelMinutePreluare.Size = new System.Drawing.Size(66, 21);
+            this.labelMinutePreluare.Size = new System.Drawing.Size(62, 21);
             this.labelMinutePreluare.TabIndex = 38;
             this.labelMinutePreluare.Text = "Minute:";
             // 
@@ -382,11 +390,11 @@ namespace FinalProjectCurs
             // 
             this.labelOraPredare.AutoSize = true;
             this.labelOraPredare.BackColor = System.Drawing.Color.Transparent;
-            this.labelOraPredare.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelOraPredare.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelOraPredare.ForeColor = System.Drawing.Color.LightGray;
             this.labelOraPredare.Location = new System.Drawing.Point(1019, 180);
             this.labelOraPredare.Name = "labelOraPredare";
-            this.labelOraPredare.Size = new System.Drawing.Size(40, 21);
+            this.labelOraPredare.Size = new System.Drawing.Size(39, 21);
             this.labelOraPredare.TabIndex = 39;
             this.labelOraPredare.Text = "Ora:";
             // 
@@ -394,11 +402,11 @@ namespace FinalProjectCurs
             // 
             this.labelMinutePredare.AutoSize = true;
             this.labelMinutePredare.BackColor = System.Drawing.Color.Transparent;
-            this.labelMinutePredare.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelMinutePredare.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelMinutePredare.ForeColor = System.Drawing.Color.LightGray;
             this.labelMinutePredare.Location = new System.Drawing.Point(1153, 180);
             this.labelMinutePredare.Name = "labelMinutePredare";
-            this.labelMinutePredare.Size = new System.Drawing.Size(66, 21);
+            this.labelMinutePredare.Size = new System.Drawing.Size(62, 21);
             this.labelMinutePredare.TabIndex = 40;
             this.labelMinutePredare.Text = "Minute:";
             // 
@@ -509,7 +517,7 @@ namespace FinalProjectCurs
             this.labelPlata.AutoSize = true;
             this.labelPlata.BackColor = System.Drawing.Color.Transparent;
             this.labelPlata.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelPlata.ForeColor = System.Drawing.Color.Tomato;
+            this.labelPlata.ForeColor = System.Drawing.Color.DarkRed;
             this.labelPlata.Location = new System.Drawing.Point(729, 558);
             this.labelPlata.Name = "labelPlata";
             this.labelPlata.Size = new System.Drawing.Size(69, 25);
@@ -536,7 +544,6 @@ namespace FinalProjectCurs
             this.checkBoxPlataCash.Size = new System.Drawing.Size(15, 14);
             this.checkBoxPlataCash.TabIndex = 49;
             this.checkBoxPlataCash.UseVisualStyleBackColor = true;
-            this.checkBoxPlataCash.CheckedChanged += new System.EventHandler(this.checkBoxPlataCash_CheckedChanged);
             // 
             // labelPlataLivrare
             // 
@@ -558,7 +565,6 @@ namespace FinalProjectCurs
             this.checkBoxPlataLivrare.Size = new System.Drawing.Size(15, 14);
             this.checkBoxPlataLivrare.TabIndex = 51;
             this.checkBoxPlataLivrare.UseVisualStyleBackColor = true;
-            this.checkBoxPlataLivrare.CheckedChanged += new System.EventHandler(this.checkBoxPlataLivrare_CheckedChanged);
             // 
             // checkBoxTermeniCond
             // 
@@ -568,17 +574,6 @@ namespace FinalProjectCurs
             this.checkBoxTermeniCond.Size = new System.Drawing.Size(15, 14);
             this.checkBoxTermeniCond.TabIndex = 52;
             this.checkBoxTermeniCond.UseVisualStyleBackColor = true;
-            // 
-            // listBoxTrimiteRezervarea
-            // 
-            this.listBoxTrimiteRezervarea.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.listBoxTrimiteRezervarea.FormattingEnabled = true;
-            this.listBoxTrimiteRezervarea.HorizontalScrollbar = true;
-            this.listBoxTrimiteRezervarea.ItemHeight = 15;
-            this.listBoxTrimiteRezervarea.Location = new System.Drawing.Point(195, 518);
-            this.listBoxTrimiteRezervarea.Name = "listBoxTrimiteRezervarea";
-            this.listBoxTrimiteRezervarea.Size = new System.Drawing.Size(260, 109);
-            this.listBoxTrimiteRezervarea.TabIndex = 54;
             // 
             // pictureBox1
             // 
@@ -602,6 +597,107 @@ namespace FinalProjectCurs
             this.linkLabel1.Text = "Sunt de acord cu termenii si conditiile";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(219, 522);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(144, 21);
+            this.label1.TabIndex = 57;
+            this.label1.Text = "Nr. zile inchiriere:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(277, 548);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(83, 21);
+            this.label3.TabIndex = 59;
+            this.label3.Text = "Garantie: ";
+            // 
+            // labelZileInchiriere
+            // 
+            this.labelZileInchiriere.BackColor = System.Drawing.Color.Transparent;
+            this.labelZileInchiriere.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelZileInchiriere.ForeColor = System.Drawing.Color.White;
+            this.labelZileInchiriere.Location = new System.Drawing.Point(369, 522);
+            this.labelZileInchiriere.Name = "labelZileInchiriere";
+            this.labelZileInchiriere.Size = new System.Drawing.Size(67, 20);
+            this.labelZileInchiriere.TabIndex = 60;
+            // 
+            // labelGarantie
+            // 
+            this.labelGarantie.BackColor = System.Drawing.Color.Transparent;
+            this.labelGarantie.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelGarantie.ForeColor = System.Drawing.Color.White;
+            this.labelGarantie.Location = new System.Drawing.Point(366, 548);
+            this.labelGarantie.Name = "labelGarantie";
+            this.labelGarantie.Size = new System.Drawing.Size(79, 21);
+            this.labelGarantie.TabIndex = 61;
+            this.labelGarantie.Text = "1000 lei";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(277, 569);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(207, 21);
+            this.label2.TabIndex = 62;
+            this.label2.Text = "sau doresc SCDW (250 lei)";
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(262, 574);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox1.TabIndex = 63;
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(239, 589);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(89, 37);
+            this.label6.TabIndex = 64;
+            this.label6.Text = "Total:";
+            // 
+            // labelTotal
+            // 
+            this.labelTotal.AutoSize = true;
+            this.labelTotal.BackColor = System.Drawing.Color.Transparent;
+            this.labelTotal.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelTotal.ForeColor = System.Drawing.Color.White;
+            this.labelTotal.Location = new System.Drawing.Point(332, 590);
+            this.labelTotal.Name = "labelTotal";
+            this.labelTotal.Size = new System.Drawing.Size(0, 37);
+            this.labelTotal.TabIndex = 65;
+            // 
+            // labelPretMasina
+            // 
+            this.labelPretMasina.BackColor = System.Drawing.Color.Transparent;
+            this.labelPretMasina.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelPretMasina.ForeColor = System.Drawing.Color.LightGray;
+            this.labelPretMasina.Location = new System.Drawing.Point(64, 336);
+            this.labelPretMasina.Name = "labelPretMasina";
+            this.labelPretMasina.Size = new System.Drawing.Size(48, 21);
+            this.labelPretMasina.TabIndex = 67;
+            this.labelPretMasina.Visible = false;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -609,9 +705,17 @@ namespace FinalProjectCurs
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1240, 679);
+            this.Controls.Add(this.labelPretMasina);
+            this.Controls.Add(this.labelTotal);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.labelGarantie);
+            this.Controls.Add(this.labelZileInchiriere);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.listBoxTrimiteRezervarea);
             this.Controls.Add(this.checkBoxTermeniCond);
             this.Controls.Add(this.checkBoxPlataLivrare);
             this.Controls.Add(this.labelPlataLivrare);
@@ -687,8 +791,16 @@ namespace FinalProjectCurs
         private System.Windows.Forms.Label labelPlataLivrare;
         private System.Windows.Forms.CheckBox checkBoxPlataLivrare;
         private System.Windows.Forms.CheckBox checkBoxTermeniCond;
-        private System.Windows.Forms.ListBox listBoxTrimiteRezervarea;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label labelZileInchiriere;
+        private System.Windows.Forms.Label labelGarantie;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label labelTotal;
+        private System.Windows.Forms.Label labelPretMasina;
     }
 }
